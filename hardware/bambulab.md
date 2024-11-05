@@ -1,10 +1,12 @@
 # 3D Printer - Bambulab X1 Carbon
 
+> This guide will teach you how to use prepare and print a 3D model using the Bambulab X1 Carbon 3D printer.
+
 ## Table of Contents
 
 - [3D Printer - Bambulab X1 Carbon](#3d-printer---bambulab-x1-carbon)
   - [Table of Contents](#table-of-contents)
-  - [Preamble](#preamble)
+  - [Introduction](#introduction)
   - [The Printer](#the-printer)
     - [The AMS (specific to Bambulab)](#the-ams-specific-to-bambulab)
     - [Extruder](#extruder)
@@ -18,9 +20,7 @@
     - [Starting the Print](#starting-the-print)
     - [Post-Processing](#post-processing)
 
-## Preamble
-
-> This guide will teach you how to use prepare and print a 3D model using the Bambulab X1 Carbon 3D printer.
+## Introduction
 
 Fused Deposition Modeling (FDM) 3D printing is the most common method for 3D printing. It involves depositing a thread of molten thermoplastic material onto a plate, layer by layer, to create a 3-dimensional object.
 
