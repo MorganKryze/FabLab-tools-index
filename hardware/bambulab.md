@@ -1,76 +1,73 @@
-# Bambulab X1 Carbon - 3D Printer
+# 3D Printer - Bambulab X1 Carbon
 
-## TOC
+## Table of Contents
 
-- [Bambulab X1 Carbon - 3D Printer](#bambulab-x1-carbon---3d-printer)
-  - [TOC](#toc)
-  - [Préambule](#préambule)
-  - [Introduction](#introduction)
-  - [L'imprimante](#limprimante)
-    - [L'AMS (spécifique à Bambulab)](#lams-spécifique-à-bambulab)
-    - [Extrudeur](#extrudeur)
-    - [Corps de chauffe](#corps-de-chauffe)
-    - [Plateau](#plateau)
-  - [Les filaments](#les-filaments)
-  - [Protocole d'impression](#protocole-dimpression)
-    - [Récupération du fichier](#récupération-du-fichier)
-    - [Ouverture du fichier dans le slicer](#ouverture-du-fichier-dans-le-slicer)
-    - [Préparation de l'imprimante](#préparation-de-limprimante)
-    - [Lancement de l'impression](#lancement-de-limpression)
-    - [Post-traitement](#post-traitement)
+- [3D Printer - Bambulab X1 Carbon](#3d-printer---bambulab-x1-carbon)
+  - [Table of Contents](#table-of-contents)
+  - [Preamble](#preamble)
+  - [The Printer](#the-printer)
+    - [The AMS (specific to Bambulab)](#the-ams-specific-to-bambulab)
+    - [Extruder](#extruder)
+    - [Heating Body](#heating-body)
+    - [Plate](#plate)
+  - [Filaments](#filaments)
+  - [Printing Protocol](#printing-protocol)
+    - [Retrieving the File](#retrieving-the-file)
+    - [Opening the File in the Slicer](#opening-the-file-in-the-slicer)
+    - [Preparing the Printer](#preparing-the-printer)
+    - [Starting the Print](#starting-the-print)
+    - [Post-Processing](#post-processing)
 
-## Préambule
+## Preamble
 
-Dans cette formation, vous allez apprendre à utiliser une imprimante 3D FDM, à préparer vos fichiers pour l'impression et à régler les paramètres d'impression.
+> This guide will teach you how to use prepare and print a 3D model using the Bambulab X1 Carbon 3D printer.
 
-## Introduction
+Fused Deposition Modeling (FDM) 3D printing is the most common method for 3D printing. It involves depositing a thread of molten thermoplastic material onto a plate, layer by layer, to create a 3-dimensional object.
 
-L'impression 3D par dépôt de fil fondu (FDM) est la méthode la plus répandue pour l'impression 3D. Elle consiste à déposer un fil de matière thermoplastique en fusion sur un plateau, couche par couche, pour créer un objet en 3 dimensions.
+The necessary equipment for 3D printing is as follows:
 
-Le matériel nécessaire pour imprimer en 3D est le suivant :
+- An FDM 3D printer (here Bambulab X1 Carbon)
+- Thermoplastic filament
+- A computer with slicing software
+- The object file to be printed
 
-- Une imprimante 3D FDM (ici Bambulab X1 Carbon)
-- Du filament thermoplastique
-- Un ordinateur avec un logiciel de "tranchage" (slicing)
-- Le fichier objet à imprimer
+## The Printer
 
-## L'imprimante
+In this section, we will go through the different modules found in an FDM 3D printer.
 
-Dans cette section, nous allons parcourir les différents modules que l'on retrouve dans une impression 3D FDM.
+### The AMS (specific to Bambulab)
 
-### L'AMS (spécifique à Bambulab)
+The Bambulab AMS is an automatic material management system that allows 3D printing with up to four different filaments without having to manually change the spools. It uses an automatic filament recognition system (RFID) to identify the spools and an automatic spool changing system (ABC) to change them automatically when the filament runs out. The AMS is also equipped with a filament drying system to eliminate moisture and improve print quality.
 
-L'AMS de Bambulab est un système automatique de gestion des matériaux qui permet d'imprimer en 3D avec jusqu'à quatre filaments différents sans avoir à changer manuellement les bobines. Il utilise un système de reconnaissance automatique des filaments (RFID) pour identifier les bobines et un système de changement automatique des bobines (ABC) pour les changer automatiquement lorsque le filament est épuisé. L'AMS est également équipé d'un système de séchage des filaments pour éliminer l'humidité et améliorer la qualité d'impression.
+### Extruder
 
-### Extrudeur
+The extruder is the module that pulls the filament. It consists of a stepper motor that drives a gear that advances the filament into the heating body. It is prone to clogging or jamming during use (useful to know for troubleshooting).
+The extruder of the Bambulab X1 Carbon printer is a direct extruder. This means it is located directly above the printing plate. This allows for better control of the temperature and pressure of the filament, resulting in higher quality prints. The X1 Carbon extruder is also equipped with a water-cooling system, which allows for printing high-temperature filaments such as PETG and Nylon.
 
-L'extrudeur est le module de traction du filament. Il est composé d'un moteur pas à pas qui entraîne un engrenage qui fait avancer le filament dans le corps de chauffe. Il est susceptible de se boucher ou de s'engorger lors de son utilisation (utile à savoir lors de dépannages).
-L'extrudeur de l'imprimante X1 Carbon de Bambulab est un extrudeur direct. Cela signifie qu'il est situé directement au-dessus du plateau d'impression. Cela permet un meilleur contrôle de la température et de la pression du filament, ce qui se traduit par des impressions de meilleure qualité. L'extrudeur X1 Carbon est également équipé d'un système de refroidissement par eau, ce qui permet d'imprimer des filaments à haute température, tels que le PETG et le Nylon.
+### Heating Body
 
-### Corps de chauffe
+After passing through the extruder, the filament goes into the heating body. It consists of a PTFE (Teflon) tube that guides the filament to the nozzle. It is also equipped with a heating cartridge that melts the filament and a temperature sensor that controls the filament temperature. The temperatures vary depending on the filaments used (see below).
 
-Après avoir traversé l'extrudeur, le filament passe dans le corps de chauffe. Il est composé d'un tube en PTFE (Téflon) qui permet de guider le filament jusqu'à la buse. Il est également équipé d'une cartouche chauffante qui permet de faire fondre le filament et d'un capteur de température qui permet de contrôler la température du filament. Les  températures varient suivant les filaments utilisés (voir en dessous).
+### Plate
 
-### Plateau
+Finally, the plate is the surface on which the printing is done. It is heated to allow better adhesion of the filament. It is also equipped with a temperature sensor that controls the plate temperature. The temperatures also vary depending on the filaments used (see below). Textured plates exist to improve filament adhesion. It is also possible to use removable printing surfaces (BuildTak, PEI, or satin) to facilitate the removal of the print.
 
-Enfin, le plateau est la surface sur laquelle l'impression est réalisée. Il est chauffé pour permettre une meilleure adhérence du filament. Il est également équipé d'un capteur de température qui permet de contrôler la température du plateau. Les températures varient aussi suivant les filaments utilisés (voir en dessous). Des plateaux texturés existent pour améliorer l'adhérence du filament. Il est également possible d'utiliser des surfaces d'impression amovibles (BuildTak, PEI ou satiné) pour faciliter le retrait de l'impression.
+## Filaments
 
-## Les filaments
+3D printer filament is one of the most commonly used categories of 3D printing materials in the world. Unlike powder and liquid resin and other 3D printing technologies, filament is produced in the form of a fine, continuous plastic thread several hundred meters long, which is generally wound onto a spool for storage and feeding into the printer. Determined by the thermal extrusion process of FDM printers, the raw material of the filament is a thermoplastic material including the most commonly used plastics in life, as well as some special formula materials for certain uses.
 
-Le filament pour imprimante 3D fait partie de l'une des catégories de matériaux d'impression 3D les plus couramment utilisées dans le monde. Contrairement à la poudre et à la résine liquide et autres technologies d'impression 3D, le filament est produit sous la forme d'un fil plastique fin et continu de plusieurs centaines de mètres de long, qui est généralement enroulé sur une bobine à des fins de stockage et d'alimentation de l'imprimante. Déterminée par le processus d'extrusion thermique des imprimantes FDM, la matière première du filament est un matériau thermoplastique comprenant les plastiques les plus couramment utilisés dans la vie, ainsi que certains matériaux de formule spéciale pour un certain usage.
+Here is a list of the most common materials for FDM 3D printing:
 
-Voici une liste des matériaux les plus courants pour l'impression 3D FDM :
+## Printing Protocol
 
-## Protocole d'impression
+The different steps to print a model are as follows:
 
-Les différentes étapes afin d'imprimer un modèle sont les suivantes :
+### Retrieving the File
 
-### Récupération du fichier
+### Opening the File in the Slicer
 
-### Ouverture du fichier dans le slicer
+### Preparing the Printer
 
-### Préparation de l'imprimante
+### Starting the Print
 
-### Lancement de l'impression
-
-### Post-traitement
+### Post-Processing
