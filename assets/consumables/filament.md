@@ -2,7 +2,7 @@
 
 > This guide will show you the different types of filament available for 3D printing and their characteristics.
 
-![Filaments](./assets/filament-1.png)
+![Filaments](../assets/filament-1.png)
 
 ## TOC
 
