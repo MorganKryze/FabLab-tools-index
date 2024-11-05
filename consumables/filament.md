@@ -32,7 +32,7 @@ Standard filament material require no particular handling and are easy to print.
 | **Extruder Temperature**             | 190 - 220°C               | 230 - 250°C                    | 220 - 250°C                    |
 | **Bed Temperature**                  | 45 - 60°C                 | 75 - 90°C                      | 95 - 110°C                     |
 | **Recommended Build Surface**        | Smooth/Textured PEI Plate | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate |
-| **Other Hardware Recommendations**   | Part Cooling              | Part Cooling Fan               | Enclosure Recommended          |
+| **Other Hardware Recommendations**   | Cooling fan               | Cooling Fan                    | Enclosure Recommended          |
 | **Impact Resistance**                | :x:                       | :x:                            | :white_check_mark:             |
 | **UV Resistant**                     | :x:                       | :x:                            | :x:                            |
 | **Water Resistant**                  | :x:                       | :white_check_mark:             | :x:                            |
@@ -65,31 +65,24 @@ Engineering plastics are more resistant and durable than standard plastics. They
 
 Composite filaments are made of a base material and a filler material. They offer unique properties such as increased strength, weight reduction, or a wood-like finish. They require specific handling and are more difficult to print. They should not be used with the AMS but rather placed on the spool holder.
 
-| Material                             | Carbon Fiber Filled          | Metal Filled                  | Wood Filled                    |
-| ------------------------------------ | ----------------------------- | ----------------------------- | ------------------------------ |
-| **Grade**                            | 8/10                          | 7/10                          | 8/10                           |
-| **Ultimate Strength**                | 45 MPa                        | 20-30 MPa                     | 46 MPa                         |
-| **Durability**                       | 3/10                          | 4/10                          | 3/10                           |
-| **Maximum Service Temperature**      | 52°C                          | 52°C                          | 52°C                           |
-| **Coefficient of Thermal Expansion** | 57.5 µm/m°C                   | 33.75 µm/m°C                  | 30.5 µm/m°C                    |
-| **Density**                          | 1.3 g/cm³                     | 2-4 g/cm³                     | 1.15 - 1.25 g/cm³              |
-| **Price**                            | 30-80 €/kg                    | 50-120 €/kg                   | 25-55 €/kg                     |
-| **Printability**                     | 7/10                          | 8/10                          | 6/10                           |
-| **Extruder Temperature**             | 200 - 230°C                   | 190 - 220°C                   | 190 - 220°C                    |
-| **Bed Temperature**                  | 45 - 60°C                     | 45 - 60°C                     | 45 - 60°C                      |
-| **Heated Bed**                       | Optional                      | Optional                      | Optional                       |
-| **Recommended Build Surface**        | Painter's Tape, Glue Stick, PEI | Painter's Tape, Glue Stick, PEI | Painter's Tape, Glue Stick, PEI |
-| **Other Hardware Recommendations**   | Part Cooling Fan              | Wear Resistant or Stainless Steel Nozzle, Part Cooling Fan | Part Cooling Fan               |
-| **Flexible**                         | :x:                           | :x:                           | :x:                            |
-| **Elastic**                          | :x:                           | :x:                           | :x:                            |
-| **Impact Resistance**                | :x:                           | :white_check_mark:            | :x:                            |
-| **Soft**                             | :x:                           | :x:                           | :x:                            |
-| **Composite**                        | :white_check_mark:            | :white_check_mark:            | :white_check_mark:             |
-| **UV Resistant**                     | :x:                           | :x:                           | :x:                            |
-| **Water Resistant**                  | :x:                           | :x:                           | :x:                            |
-| **Dissolvable**                      | :x:                           | :x:                           | :x:                            |
-| **Heat Resistant**                   | :x:                           | :x:                           | :x:                            |
-| **Chemically Resistant**             | :x:                           | :x:                           | :x:                            |
+| Material                             | Carbon Fiber Filled                   | Metal Filled                                               | Wood Filled                           |
+| ------------------------------------ | ------------------------------------- | ---------------------------------------------------------- | ------------------------------------- |
+| **Grade**                            | 8/10                                  | 7/10                                                       | 8/10                                  |
+| **Ultimate Strength**                | 45 MPa                                | 20-30 MPa                                                  | 46 MPa                                |
+| **Durability**                       | 3/10                                  | 4/10                                                       | 3/10                                  |
+| **Maximum Service Temperature**      | 52°C                                  | 52°C                                                       | 52°C                                  |
+| **Coefficient of Thermal Expansion** | 57.5 µm/m°C                           | 33.75 µm/m°C                                               | 30.5 µm/m°C                           |
+| **Density**                          | 1.3 g/cm³                             | 2-4 g/cm³                                                  | 1.15 - 1.25 g/cm³                     |
+| **Price**                            | 30-80 €/kg                            | 50-120 €/kg                                                | 25-55 €/kg                            |
+| **Printability**                     | 7/10                                  | 8/10                                                       | 6/10                                  |
+| **Extruder Temperature**             | 200 - 230°C                           | 190 - 220°C                                                | 190 - 220°C                           |
+| **Bed Temperature**                  | 45 - 60°C                             | 45 - 60°C                                                  | 45 - 60°C                             |
+| **Recommended Build Surface**        | Glue Stick, Smooth/Textured PEI Plate | Glue Stick, Smooth/Textured PEI Plate                      | Glue Stick, Smooth/Textured PEI Plate |
+| **Other Hardware Recommendations**   | Cooling Fan                           | Wear Resistant or Stainless Steel Nozzle, Part Cooling Fan | Cooling Fan                           |
+| **Impact Resistance**                | :x:                                   | :white_check_mark:                                         | :x:                                   |
+| **UV Resistant**                     | :x:                                   | :x:                                                        | :x:                                   |
+| **Water Resistant**                  | :x:                                   | :x:                                                        | :x:                                   |
+| **Chemically Resistant**             | :x:                                   | :x:                                                        | :x:                                   |
 
 ---
 
