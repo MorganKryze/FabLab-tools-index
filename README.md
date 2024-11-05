@@ -2,7 +2,7 @@
 
 > This document is a repository for all the tools available in the Fablab. It is intended to be a quick reference for the users of the Fablab.
 
-![Tools](assets/readme-1.jpg)
+![Tools](assets/readme-1.png)
 
 ## Hardware list
 
@@ -31,3 +31,4 @@
 ---
 
 Last update: Nov. 2024
+Author: Yann VIDAMMENT
