@@ -57,7 +57,7 @@ Engineering plastics are more resistant and durable than standard plastics. They
 | **Recommended Build Surface**        | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate     | Glue Stick, Textured PEI Plate     |
 | **Other Hardware Recommendations**   | Cooling Fan                    | Enclosure Recommended          | Enclosure Recommended, Cooling Fan | Enclosure Recommended, Cooling Fan |
 | **Impact Resistance**                | :x:                            | :white_check_mark:             | :white_check_mark:                 | :white_check_mark:                 |
-| **UV Resistant**                     | :x:                            | :x:                            | :w:                                | :x:                                |
+| **UV Resistant**                     | :x:                            | :x:                            | :x:                                | :x:                                |
 | **Water Resistant**                  | :x:                            | :white_check_mark:             | :white_check_mark:                 | :x:                                |
 | **Chemically Resistant**             | :x:                            | :x:                            | :x:                                | :x:                                |
 
