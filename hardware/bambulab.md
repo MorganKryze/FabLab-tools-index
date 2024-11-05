@@ -2,6 +2,8 @@
 
 > This guide will teach you how to use prepare and print a 3D model using the Bambulab X1 Carbon 3D printer.
 
+![Bambulab X1 Carbon](../assets/bambulab-1.png)
+
 ## Table of Contents
 
 - [3D Printer - Bambulab X1 Carbon](#3d-printer---bambulab-x1-carbon)
