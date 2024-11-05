@@ -2,7 +2,7 @@
 
 > This is a template for a subject.
 
-![TO_REPLACE](assets/readme-1.png)
+![TO_REPLACE](./readme-1.png)
 
 ## Table of Contents
 
