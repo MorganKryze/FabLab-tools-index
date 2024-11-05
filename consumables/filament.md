@@ -30,3 +30,8 @@
 - Coût : 20-30€/kg
 - Avantages : Résistant, peu de warping
 - Inconvénients : Difficile à imprimer, odeur forte, faible résistance à la flexion, forte résistance à la chaleur, nécessite une enceinte fermée pour l'impression.
+
+---
+
+Last update: Nov. 2024
+Author: Yann VIDAMMENT

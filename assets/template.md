@@ -13,5 +13,6 @@
 
 ---
 
-Last update : Month. Year
-Author : John DOE
+Last update: Month. Year
+
+Author: John DOE
