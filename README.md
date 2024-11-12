@@ -4,12 +4,12 @@
 
 ![Tools](assets/readme-1.png)
 
-## Hardware list
+## Hardware
 
 - [3D Printer | Bambulab X1 Carbon](hardware/bambulab.md)
 - [CNC | SnapMaker Artisan](hardware/snapmaker.md)
 
-## Software list
+## Software
 
 - CAO
 - [3D slicer | OrcaSlicer](software/orcaslicer.md)
@@ -18,15 +18,25 @@
 - Raspberry Pi imager
 - BalenaEtcher
 
-## Consumables list
+## Consumables
 
 - [Filament | FDM plastics](consumables/filament.md)
 
-## Safety list
+## Safety equipment
 
 - [EPI | Personal Protective Equipment](safety/epi.md)
 - [Fire extinguisher | Fire safety](safety/fire.md)
 - [First aid kit | First aid](safety/firstaid.md)
+
+## Dangers and risks
+
+| Material         | Risk                      | Protection                             |
+| ---------------- | ------------------------- | -------------------------------------- |
+| 3D printer & ABS | Fumes                     | Ventilation, opening windows           |
+| CNC & wood       | Dust, projections         | Mask, vacuum cleaner, glasses          |
+| CNC & metal      | Chips, projections        | Glasses, gloves                        |
+| CNC & plastic    | Chips, projections, Fumes | Mask, glasses, gloves, opening windows |
+| Soldering iron   | Burns, projections        | Gloves, glasses                        |
 
 ---
 
