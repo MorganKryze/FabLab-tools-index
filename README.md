@@ -8,11 +8,12 @@
 
 - [3D Printer | Bambulab X1 Carbon](hardware/bambulab.md)
 - [CNC | SnapMaker Artisan](hardware/snapmaker.md)
+- Soldering
 
 ## Software
 
-- CAO
 - [3D slicer | OrcaSlicer](software/orcaslicer.md)
+- CAO
 - CNC
 - Code editor : Vscode + PlatformIO
 - Raspberry Pi imager
@@ -21,6 +22,8 @@
 ## Consumables
 
 - [Filament | FDM plastics](consumables/filament.md)
+- Wood planks
+- Metal sheets
 
 ## Safety equipment
 

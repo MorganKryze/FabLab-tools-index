@@ -1,46 +1,49 @@
-# 3D slicer - OrcaSlicer
+# 3D Slicer - OrcaSlicer
 
-## TOC
+## Table of Contents
 
-- [3D slicer - OrcaSlicer](#3d-slicer---orcaslicer)
-  - [TOC](#toc)
-  - [Les Slicers](#les-slicers)
-    - [Création du « scénario » d’impression (g-code)](#création-du--scénario--dimpression-g-code)
-    - [Positionnement de l’objet sur le plateau](#positionnement-de-lobjet-sur-le-plateau)
-    - [Définition du remplissage de la pièce](#définition-du-remplissage-de-la-pièce)
-    - [Création des supports](#création-des-supports)
+- [3D Slicer - OrcaSlicer](#3d-slicer---orcaslicer)
+  - [Table of Contents](#table-of-contents)
+  - [Slicers](#slicers)
+    - [Creation of the Printing "Scenario" (G-code)](#creation-of-the-printing-scenario-g-code)
+    - [Positioning the Object on the Plate](#positioning-the-object-on-the-plate)
+    - [Defining the Part's Infill](#defining-the-parts-infill)
+    - [Creating Supports](#creating-supports)
 
-## Les Slicers
+## Slicers
 
-Le Slicer permet la conversion du fichier que vous avez modélisé en une série de couches, plus ou moins fine, correspondant aux différentes étapes de construction de l’impression réelle.
-Le logiciel ensuite génère un G-code qui contient toutes les instructions d’impression qui sera envoyé à l’imprimante.
-C’est l’étape durant lequel les réglages liés à l’impression (température de buse et plateau, vitesse d’impression, ventilateur ..) sont effectués.
+The slicer allows the conversion of the file you have modeled into a series of layers, more or less fine, corresponding to the different stages of constructing the actual print. The software then generates a G-code that contains all the printing instructions that will be sent to the printer. This is the step during which the settings related to printing (nozzle and plate temperature, printing speed, fan, etc.) are made.
 
-Les slicers les plus couramment utilisés sont :
+The most commonly used slicers are:
 
 - BambuStudio (BambuLab)
 - PrusaSlicer (Prusa)
 - Cura (Ultimaker)
 - IdeaMaker (Raise3D)
-- SuperSlicer (*Open Source*)
+- SuperSlicer (_Open Source_)
 
-Parmis cette liste non exhaustive, nous retrouvons les leaders du marché, souvent rattachés à une marque d'imprimante 3D. Cependant, il est important de noter que la plupart des ces slicers permettent de créer des g-code pour un grand nombre d'imprimantes 3D autres que celles de la marque propriétaire. Il vient néanmoins le risque de ne pas avoir accès à toutes les fonctionnalités de l'imprimante (telle que l'AMS de Bambulab).
+Among this non-exhaustive list, we find the market leaders, often associated with a 3D printer brand. However, it is important to note that most of these slicers allow the creation of G-codes for a large number of 3D printers other than those of the proprietary brand. However, there is the risk of not having access to all the printer's features (such as Bambulab's AMS).
 
-Finalement, les rôles du slicer peuvent être résumés en 4 points majeurs :
+Finally, the roles of the slicer can be summarized in 4 major points:
 
-### Création du « scénario » d’impression (g-code)
+### Creation of the Printing "Scenario" (G-code)
 
-On l’appelle plus communément parcours d’impression mais avec la notion de scénario on comprend bien l’idée de la projection pas à pas de la future impression.
+It is more commonly called the printing path, but with the notion of a scenario, we understand the idea of the step-by-step projection of the future print.
 
-### Positionnement de l’objet sur le plateau
+### Positioning the Object on the Plate
 
-On choisit son orientation, pour des raisons techniques mais également pour des raisons esthétiques surtout avec l’impression à dépôt de fil. En effet avec le FDM le striage de couche à couche est visible, il faudra donc choisir si on souhaite que la pièce à imprimer ait le striage horizontal ou vertical par exemple. Cela impactera aussi la résistance de l'impression. Si l'on imprime sans relief on peut également choisir d’imprimer la face de l’objet sur le plateau pour bénéficier de la brillance de cette face.
+We choose its orientation, for technical reasons but also for aesthetic reasons, especially with filament deposition printing. Indeed, with FDM, the layering from layer to layer is visible, so we will have to choose whether we want the part to be printed to have horizontal or vertical layering, for example. This will also impact the strength of the print. If we print without relief, we can also choose to print the face of the object on the plate to benefit from the shine of this face.
 
-### Définition du remplissage de la pièce
+### Defining the Part's Infill
 
-Il est possible de choisir quel type de remplissage suivant les propriété que l'on souhaite (on retrouvera nids d'abeilles, gyroïdes ou en grilles). De même la densité de remplissage est un facteur important de la résistance de la pièce. Cela définira entre autres le temps d'impression mais aussi la rigidité, solidité et légerté de la pièce.
+It is possible to choose what type of infill according to the properties we want (we will find honeycombs, gyroids, or grids). Similarly, the infill density is an important factor in the strength of the part. This will define, among other things, the printing time but also the rigidity, solidity, and lightness of the part.
 
-### Création des supports
+### Creating Supports
 
-L’extrusion ne peut s’accrocher dans le vide, il faut un support pour laisser au filament extrudé chaud le temps de durcir. Différents modèles de supports existent suivant les besoins comme les grilles ou les supports organiques. Il est également possible de choisir dans la plupart des slicers où placer les supports et même définir des zones sans support.
-  
+Extrusion cannot attach to the void; support is needed to give the hot extruded filament time to harden. Different support models exist depending on the needs, such as grids or organic supports. It is also possible to choose where to place the supports and even define areas without support in most slicers.
+
+---
+
+Last update: Nov. 2024
+
+Author: Yann VIDAMMENT
