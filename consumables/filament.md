@@ -15,6 +15,14 @@
 
 ## Filaments
 
+There are three main types of filaments used in 3D printing: standard plastics, engineering plastics, and composite plastics. Each type has its own characteristics and is suitable for different applications.
+
+Though, they share some common properties:
+
+- They are all thermoplastics, meaning they can be melted and reshaped multiple times.
+- They are all available in a wide range of colors and finishes.
+- They are all available in 1.75mm and 2.85mm diameters even if 1.75mm is the general standard.
+
 ### Standard plastics
 
 Standard filament material require no particular handling and are easy to print. They are the most common materials used in 3D printing and are suitable for most applications. They offer a natural compatibility the Bambulab AMS (Automatic Material System). see [ref](../hardware/bambulab.md).
