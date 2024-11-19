@@ -27,7 +27,7 @@
 
 ## Dangers and risks
 
-All safety equipments are listed in [this guide](safety/equipements.md). WIP
+All safety equipments are listed in [this guide](safety/equipements.md).
 
 | Material         | Risk                      | Protection                             |
 | ---------------- | ------------------------- | -------------------------------------- |
