@@ -26,13 +26,13 @@ If you may have any doubt or inquiry, please refer to your supervisor.
 
 Personal Protective Equipment is a must-have in a Fablab. It is the first line of defense against accidents. Here is a list of PPE available in the Fablab:
 
-| Equipment            | Dangers it answers to | Illustration                       |
-| -------------------- | --------------------- | ---------------------------------- |
-| Plastic glasses      | Projections, chips    | ![glasses](../assets/safety-2.png) |
-| Cut resistant gloves | Cut, saw, cutter      | ![gloves](../assets/safety-3.png)  |
-| Cut resistant gloves | High heat,            | ![gloves](../assets/safety-4.png)  |
-| Headset              | Loud noises           | ![headset](../assets/safety-5.png) |
-| Gaz mask             | Fumes, projections    | ![mask](../assets/safety-6.png)    |
+| Equipment             | Dangers it answers to | Illustration                       |
+| --------------------- | --------------------- | ---------------------------------- |
+| Plastic glasses       | Projections, chips    | ![glasses](../assets/safety-2.png) |
+| Cut resistant gloves  | Cut, saw, cutter      | ![gloves](../assets/safety-3.png)  |
+| Heat resistant gloves | High heat             | ![gloves](../assets/safety-4.png)  |
+| Headset               | Loud noises           | ![headset](../assets/safety-5.png) |
+| Gaz mask              | Fumes, projections    | ![mask](../assets/safety-6.png)    |
 
 ## Fire extinguisher
 
