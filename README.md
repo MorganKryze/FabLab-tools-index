@@ -7,12 +7,12 @@
 ## Hardware
 
 - [3D Printer | Bambulab X1 Carbon](hardware/bambulab.md)
-- [CNC | SnapMaker Artisan](hardware/snapmaker.md)
+- [CNC | SnapMaker Artisan](hardware/snapmaker.md) WIP
 - Soldering
 
 ## Software
 
-- [3D slicer | OrcaSlicer](software/orcaslicer.md)
+- [3D slicer | OrcaSlicer](software/orcaslicer.md) WIP
 - CAO
 - CNC
 - Code editor : Vscode + PlatformIO
@@ -25,13 +25,9 @@
 - Wood planks
 - Metal sheets
 
-## Safety equipment
-
-- [EPI | Personal Protective Equipment](safety/epi.md)
-- [Fire extinguisher | Fire safety](safety/fire.md)
-- [First aid kit | First aid](safety/firstaid.md)
-
 ## Dangers and risks
+
+All safety equipments are listed in [this guide](safety/equipements.md). WIP
 
 | Material         | Risk                      | Protection                             |
 | ---------------- | ------------------------- | -------------------------------------- |
