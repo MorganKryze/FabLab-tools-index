@@ -59,11 +59,16 @@ All safety equipments are listed in [this guide](safety/equipements.md).
 
 | Material         | Risk                      | Protection                             |
 | ---------------- | ------------------------- | -------------------------------------- |
-| 3D printer & ABS | Fumes                     | Ventilation, opening windows           |
+| 3D Printer & ABS | Fumes                     | Ventilation, opening windows           |
 | CNC & wood       | Dust, projections         | Mask, vacuum cleaner, glasses          |
 | CNC & metal      | Chips, projections        | Glasses, gloves                        |
 | CNC & plastic    | Chips, projections, Fumes | Mask, glasses, gloves, opening windows |
 | Soldering iron   | Burns, projections        | Gloves, glasses                        |
+| Heat Gun         | Burns, projections        | Gloves, glasses                        |
+| Glue gun         | Burns                     | Gloves                                 |
+| Drill            | Projections, injuries     | Glasses, gloves                        |
+| Sanding machine  | Dust, projections         | Mask, glasses, gloves                  |
+| Soldering kit    | Burns, projections        | Gloves, glasses                        |
 
 ---
 
