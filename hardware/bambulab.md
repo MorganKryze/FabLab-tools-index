@@ -32,6 +32,10 @@ The necessary equipment for 3D printing is as follows:
 - A computer with slicing software
 - The object file to be printed
 
+Here is a detailed schema to understand the process:
+
+![3D Printing Process](../assets/bambulab-6.png)
+
 ## Risks and protections
 
 | Material                   | Risk  | Protection                                              |
