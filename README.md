@@ -1,72 +1,77 @@
-# Fablab's tools index
+# Index des outils du Fablab
 
-> This document is a repository for all the tools available in the Fablab. It is intended to be a quick reference for the users of the Fablab.
+> Ce document est un référentiel pour tous les outils disponibles dans le Fablab. Il est destiné à servir de référence rapide pour les utilisateurs du Fablab.
 
-![Tools](assets/readme-1.png)
+![Outils](assets/readme-1.png)
 
-## Electronic hardware
+## Matériel électronique
 
-- [3D Printer | Bambulab X1 Carbon](hardware/bambulab.md)
-- [CNC | SnapMaker Artisan](hardware/snapmaker.md) WIP
-- Single Board Computers (SBC)
+- [Imprimante 3D | Bambulab X1 Carbon](hardware/bambulab.md)
+- [CNC | SnapMaker Artisan](hardware/snapmaker.md) En cours
+- Ordinateurs monocarte (SBC)
   - RaspberryPi 5
   - RaspberryPi 400
   - OrangePi 5B
   - OrangePi 5 Plus
-- Micro-controllers
+- Micro-contrôleurs
   - ESP8266
   - ESP32 & Featherwing
   - TotemDuino Micro Lab
-- Sensors
+- Capteurs
   - ESP32 Cam
-  - PIR sensor
+  - Capteur PIR
   - Picamera 2 NoIR
   - Picamera 3
   - Webcam full HD
-  - Audio-technica usb microphone
-  - ASK 130 Conference Speaker & Microphone
-  - EL019 Speaker
-- Samsung Tablets
-- Soldering kit
-- Multimeter
+  - Microphone USB Audio-technica
+  - Haut-parleur et microphone de conférence ASK 130
+  - Haut-parleur EL019
+- Tablettes Samsung
+- Kit de soudure
+- Multimètre
 
-## Mechanical hardware
+## Matériel mécanique
 
-- Heat Gun Seekone
-- Glue gun Bosch
-- Drill Bosh
-- Hand-drill Bosh
-- Sanding machine Black & Decker
+- Pistolet thermique Seekone
+- Pistolet à colle Bosch
+- Perceuse prise verticale Bosh
+- Perceuse prise horizontale Bosh
+- Ponceuse Black & Decker
 
-## Software
+## Logiciels
 
-- [3D slicer | OrcaSlicer](software/orcaslicer.md) WIP
+- [Slicer 3D | OrcaSlicer](software/orcaslicer.md) En cours
 - CAO
 - CNC
-- Code editor : Vscode + PlatformIO
+- Éditeur de code : Vscode + PlatformIO
 - Raspberry Pi imager
 - BalenaEtcher
 
-## Consumables
+## Consommables
 
-- [Filament | FDM plastics](consumables/filament.md)
-- Wood planks
-- Metal sheets
+- [Filament | Plastiques FDM](consumables/filament.md)
+- Planches de bois
+- Feuilles de métal
 
-## Dangers and risks
+## Dangers et risques
 
-All safety equipments are listed in [this guide](safety/equipements.md).
+Tous les équipements de sécurité sont listés dans [ce guide](safety/equipements.md).
 
-| Material         | Risk                      | Protection                             |
-| ---------------- | ------------------------- | -------------------------------------- |
-| 3D printer & ABS | Fumes                     | Ventilation, opening windows           |
-| CNC & wood       | Dust, projections         | Mask, vacuum cleaner, glasses          |
-| CNC & metal      | Chips, projections        | Glasses, gloves                        |
-| CNC & plastic    | Chips, projections, Fumes | Mask, glasses, gloves, opening windows |
-| Soldering iron   | Burns, projections        | Gloves, glasses                        |
+| Matériel            | Risque                       | Protection                                      |
+| ------------------- | ---------------------------- | ----------------------------------------------- | --- |
+| Imprimante 3D & ABS | Fumées                       | Ventilation, ouverture des fenêtres             |
+| CNC & bois          | Poussière, projections       | Masque, aspirateur, lunettes                    |
+| CNC & métal         | Copeaux, projections         | Lunettes, gants                                 |
+| CNC & plastique     | Copeaux, projections, Fumées | Masque, lunettes, gants, ouverture des fenêtres |
+| Fer à souder        | Brûlures, projections        | Gants, lunettes                                 |
+| Pistolet thermique  | Brûlures, projections        | Gants, lunettes                                 |
+| Pistolet à colle    | Brûlures                     | Gants                                           |
+| Perceuse            | Projections, blessures       | Lunettes, gants                                 |     |
+| Ponceuse            | Poussière, projections       | Masque, lunettes, gants                         |     |
+| Kit de soudure      | Brûlures, projections        | Gants, lunettes                                 |     |
 
 ---
 
-Last update: Nov. 2024
+Dernière mise à jour : Nov. 2024
 
-Author: Yann VIDAMMENT
+Auteur : Yann VIDAMMENT

@@ -1,98 +1,98 @@
-# 3D Filament
+# Filament 3D
 
-> This guide will show you the different types of filament available for 3D printing and their characteristics.
+> Ce guide vous présentera les différents types de filaments disponibles pour l'impression 3D et leurs caractéristiques.
 
 ![Filaments](../assets/filament-1.png)
 
-## TOC
+## Table des matières
 
-- [3D Filament](#3d-filament)
-  - [TOC](#toc)
+- [Filament 3D](#filament-3d)
+  - [Table des matières](#table-des-matières)
   - [Introduction](#introduction)
-  - [Standard plastics](#standard-plastics)
-  - [Engineering plastics](#engineering-plastics)
-  - [Composite plastics](#composite-plastics)
+  - [Plastiques standards](#plastiques-standards)
+  - [Plastiques techniques](#plastiques-techniques)
+  - [Plastiques composites](#plastiques-composites)
 
 ## Introduction
 
-There are three main types of filaments used in 3D printing: standard plastics, engineering plastics, and composite plastics. Each type has its own characteristics and is suitable for different applications.
+Il existe trois types principaux de filaments utilisés en impression 3D : les plastiques standards, les plastiques techniques et les plastiques composites. Chaque type a ses propres caractéristiques et est adapté à différentes applications.
 
-Though, they share some common properties:
+Cependant, ils partagent certaines propriétés communes :
 
-- They are **all thermoplastics**, meaning they can be melted and reshaped multiple times.
-- They are all available in a **wide range of colors** and finishes.
-- They are **all available in 1.75mm** and 2.85mm diameters even if 1.75mm is the general standard.
+- Ils sont **tous thermoplastiques**, ce qui signifie qu'ils peuvent être fondus et remodelés plusieurs fois.
+- Ils sont tous disponibles dans une **large gamme de couleurs** et de finitions.
+- Ils sont **tous disponibles en diamètres de 1,75 mm** et 2,85 mm même si 1,75 mm est la norme générale.
 
-## Standard plastics
+## Plastiques standards
 
-Standard filament material require no particular handling and are easy to print. They are the most common materials used in 3D printing and are suitable for most applications. They offer a natural compatibility the Bambulab AMS (Automatic Material System). see [ref](../hardware/bambulab.md).
+Les matériaux de filament standard ne nécessitent aucune manipulation particulière et sont faciles à imprimer. Ce sont les matériaux les plus courants utilisés en impression 3D et sont adaptés à la plupart des applications. Ils offrent une compatibilité naturelle avec le Bambulab AMS (Automatic Material System). Voir [ref](../hardware/bambulab.md).
 
-| Material                             | PLA                       | PETG                           | ABS                            |
-| ------------------------------------ | ------------------------- | ------------------------------ | ------------------------------ |
-| **Grade**                            | 9/10                      | 9/10                           | 8/10                           |
-| **Ultimate Strength**                | 65 MPa                    | 53 MPa                         | 40 MPa                         |
-| **Durability**                       | 6/10                      | 8/10                           | 9/10                           |
-| **Maximum Service Temperature**      | 52°C                      | 73°C                           | 98°C                           |
-| **Coefficient of Thermal Expansion** | 68 µm/m°C                 | 60 µm/m°C                      | 90 µm/m°C                      |
-| **Density**                          | 1.24 g/cm³                | 1.23 g/cm³                     | 1.04 g/cm³                     |
-| **Price**                            | 10 - 40 €/kg              | 20 - 60 €/kg                   | 10 - 40 €/kg                   |
-| **Printability**                     | 9/10                      | 8/10                           | 9/10                           |
-| **Extruder Temperature**             | 190 - 220°C               | 230 - 250°C                    | 220 - 250°C                    |
-| **Bed Temperature**                  | 45 - 60°C                 | 75 - 90°C                      | 95 - 110°C                     |
-| **Recommended Build Surface**        | Smooth/Textured PEI Plate | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate |
-| **Other Hardware Recommendations**   | Cooling fan               | Cooling Fan                    | Enclosure Recommended          |
-| **Impact Resistance**                | :x:                       | :x:                            | :white_check_mark:             |
-| **UV Resistant**                     | :x:                       | :x:                            | :x:                            |
-| **Water Resistant**                  | :x:                       | :white_check_mark:             | :x:                            |
-| **Chemically Resistant**             | :x:                       | :white_check_mark:             | :x:                            |
+| Matériau                                | PLA                            | PETG                                | ABS                                 |
+| --------------------------------------- | ------------------------------ | ----------------------------------- | ----------------------------------- |
+| **Grade**                               | 9/10                           | 9/10                                | 8/10                                |
+| **Résistance ultime**                   | 65 MPa                         | 53 MPa                              | 40 MPa                              |
+| **Durabilité**                          | 6/10                           | 8/10                                | 9/10                                |
+| **Température de service maximale**     | 52°C                           | 73°C                                | 98°C                                |
+| **Coefficient de dilatation thermique** | 68 µm/m°C                      | 60 µm/m°C                           | 90 µm/m°C                           |
+| **Densité**                             | 1,24 g/cm³                     | 1,23 g/cm³                          | 1,04 g/cm³                          |
+| **Prix**                                | 10 - 40 €/kg                   | 20 - 60 €/kg                        | 10 - 40 €/kg                        |
+| **Imprimabilité**                       | 9/10                           | 8/10                                | 9/10                                |
+| **Température de l'extrudeuse**         | 190 - 220°C                    | 230 - 250°C                         | 220 - 250°C                         |
+| **Température du lit**                  | 45 - 60°C                      | 75 - 90°C                           | 95 - 110°C                          |
+| **Surface de construction recommandée** | Plaque PEI lisse/texturée      | Bâton de colle, Plaque PEI texturée | Bâton de colle, Plaque PEI texturée |
+| **Autres recommandations matérielles**  | Ventilateur de refroidissement | Ventilateur de refroidissement      | Enceinte recommandée                |
+| **Résistance aux chocs**                | :x:                            | :x:                                 | :white_check_mark:                  |
+| **Résistance aux UV**                   | :x:                            | :x:                                 | :x:                                 |
+| **Résistance à l'eau**                  | :x:                            | :white_check_mark:                  | :x:                                 |
+| **Résistance chimique**                 | :x:                            | :white_check_mark:                  | :x:                                 |
 
-## Engineering plastics
+## Plastiques techniques
 
-Engineering plastics are more resistant and durable than standard plastics. They are suitable for more demanding applications. They require more specific handling and are more difficult to print. They **should not be used** with the AMS but rather placed on the spool holder.
+Les plastiques techniques sont plus résistants et durables que les plastiques standards. Ils sont adaptés à des applications plus exigeantes. Ils nécessitent une manipulation plus spécifique et sont plus difficiles à imprimer. Ils **ne doivent pas être utilisés** avec l'AMS mais plutôt placés sur le support de bobine.
 
-| Material                             | Flex                           | Nylon                          | ASA                            | Polycarbonate                   |
-| ------------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------- |
-| **Grade**                            | 6/10                           | 8/10                           | 7/10                           | 7/10                            |
-| **Ultimate Strength**                | 26-43 MPa                      | 40-85 MPa                      | 55 MPa                         | 72 MPa                          |
-| **Durability**                       | 9/10                           | 10/10                          | 10/10                          | 10/10                           |
-| **Maximum Service Temperature**      | 70°C                           | 90°C                           | 65°C                           | 120°C                           |
-| **Coefficient of Thermal Expansion** | 70 µm/m°C                      | 95 µm/m°C                      | 85 µm/m°C                      | 68 µm/m°C                       |
-| **Density**                          | 1.19 - 1.23 g/cm³              | 1.12 g/cm³                     | 1.07 g/cm³                     | 1.2 g/cm³                       |
-| **Price**                            | 30-70 €/kg                     | 25-65 €/kg                     | 30-40 €/kg                     | 40-75 €/kg                      |
-| **Printability**                     | 6/10                           | 8/10                           | 7/10                           | 7/10                            |
-| **Extruder Temperature**             | 225 - 245°C                    | 230 - 260°C                    | 240 - 270°C                    | 260 - 310°C                     |
-| **Bed Temperature**                  | 45 - 60°C                      | 70 - 90°C                      | 90 - 110°C                     | 80 - 120°C                      |
-| **Recommended Build Surface**        | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate  |
-| **Other Hardware Recommendations**   | Cooling Fan                    | Enclosure Required             | Enclosure Required             | Enclosure Required, Cooling Fan |
-| **Impact Resistance**                | :x:                            | :white_check_mark:             | :white_check_mark:             | :white_check_mark:              |
-| **UV Resistant**                     | :x:                            | :x:                            | :x:                            | :x:                             |
-| **Water Resistant**                  | :x:                            | :white_check_mark:             | :white_check_mark:             | :x:                             |
-| **Chemically Resistant**             | :x:                            | :x:                            | :x:                            | :x:                             |
+| Matériau                                | Flex                                | Nylon                               | ASA                                 | Polycarbonate                                    |
+| --------------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- | ------------------------------------------------ |
+| **Grade**                               | 6/10                                | 8/10                                | 7/10                                | 7/10                                             |
+| **Résistance ultime**                   | 26-43 MPa                           | 40-85 MPa                           | 55 MPa                              | 72 MPa                                           |
+| **Durabilité**                          | 9/10                                | 10/10                               | 10/10                               | 10/10                                            |
+| **Température de service maximale**     | 70°C                                | 90°C                                | 65°C                                | 120°C                                            |
+| **Coefficient de dilatation thermique** | 70 µm/m°C                           | 95 µm/m°C                           | 85 µm/m°C                           | 68 µm/m°C                                        |
+| **Densité**                             | 1,19 - 1,23 g/cm³                   | 1,12 g/cm³                          | 1,07 g/cm³                          | 1,2 g/cm³                                        |
+| **Prix**                                | 30-70 €/kg                          | 25-65 €/kg                          | 30-40 €/kg                          | 40-75 €/kg                                       |
+| **Imprimabilité**                       | 6/10                                | 8/10                                | 7/10                                | 7/10                                             |
+| **Température de l'extrudeuse**         | 225 - 245°C                         | 230 - 260°C                         | 240 - 270°C                         | 260 - 310°C                                      |
+| **Température du lit**                  | 45 - 60°C                           | 70 - 90°C                           | 90 - 110°C                          | 80 - 120°C                                       |
+| **Surface de construction recommandée** | Bâton de colle, Plaque PEI texturée | Bâton de colle, Plaque PEI texturée | Bâton de colle, Plaque PEI texturée | Bâton de colle, Plaque PEI texturée              |
+| **Autres recommandations matérielles**  | Ventilateur de refroidissement      | Enceinte requise                    | Enceinte requise                    | Enceinte requise, Ventilateur de refroidissement |
+| **Résistance aux chocs**                | :x:                                 | :white_check_mark:                  | :white_check_mark:                  | :white_check_mark:                               |
+| **Résistance aux UV**                   | :x:                                 | :x:                                 | :x:                                 | :x:                                              |
+| **Résistance à l'eau**                  | :x:                                 | :white_check_mark:                  | :white_check_mark:                  | :x:                                              |
+| **Résistance chimique**                 | :x:                                 | :x:                                 | :x:                                 | :x:                                              |
 
-## Composite plastics
+## Plastiques composites
 
-Composite filaments are made of a base material and a filler material. They offer unique properties such as increased strength, weight reduction, or a wood-like finish. They require specific handling and are more difficult to print. They **should not be used** with the AMS but rather placed on the spool holder.
+Les filaments composites sont constitués d'un matériau de base et d'un matériau de remplissage. Ils offrent des propriétés uniques telles qu'une résistance accrue, une réduction de poids ou une finition semblable au bois. Ils nécessitent une manipulation spécifique et sont plus difficiles à imprimer. Ils **ne doivent pas être utilisés** avec l'AMS mais plutôt placés sur le support de bobine.
 
-| Material                             | Carbon Fiber Filled                   | Metal Filled                                               | Wood Filled                           |
-| ------------------------------------ | ------------------------------------- | ---------------------------------------------------------- | ------------------------------------- |
-| **Grade**                            | 8/10                                  | 7/10                                                       | 8/10                                  |
-| **Ultimate Strength**                | 45 MPa                                | 20-30 MPa                                                  | 46 MPa                                |
-| **Durability**                       | 3/10                                  | 4/10                                                       | 3/10                                  |
-| **Maximum Service Temperature**      | 52°C                                  | 52°C                                                       | 52°C                                  |
-| **Coefficient of Thermal Expansion** | 57.5 µm/m°C                           | 33.75 µm/m°C                                               | 30.5 µm/m°C                           |
-| **Density**                          | 1.3 g/cm³                             | 2-4 g/cm³                                                  | 1.15 - 1.25 g/cm³                     |
-| **Price**                            | 30-80 €/kg                            | 50-120 €/kg                                                | 25-55 €/kg                            |
-| **Printability**                     | 7/10                                  | 8/10                                                       | 6/10                                  |
-| **Extruder Temperature**             | 200 - 230°C                           | 190 - 220°C                                                | 190 - 220°C                           |
-| **Bed Temperature**                  | 45 - 60°C                             | 45 - 60°C                                                  | 45 - 60°C                             |
-| **Recommended Build Surface**        | Glue Stick, Smooth/Textured PEI Plate | Glue Stick, Smooth/Textured PEI Plate                      | Glue Stick, Smooth/Textured PEI Plate |
-| **Other Hardware Recommendations**   | Cooling Fan                           | Wear Resistant or Stainless Steel Nozzle, Part Cooling Fan | Cooling Fan                           |
-| **Impact Resistance**                | :x:                                   | :white_check_mark:                                         | :x:                                   |
-| **UV Resistant**                     | :x:                                   | :x:                                                        | :x:                                   |
-| **Water Resistant**                  | :x:                                   | :x:                                                        | :x:                                   |
-| **Chemically Resistant**             | :x:                                   | :x:                                                        | :x:                                   |
+| Matériau                                | Rempli de fibre de carbone                | Rempli de métal                                                                             | Rempli de bois                            |
+| --------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| **Grade**                               | 8/10                                      | 7/10                                                                                        | 8/10                                      |
+| **Résistance ultime**                   | 45 MPa                                    | 20-30 MPa                                                                                   | 46 MPa                                    |
+| **Durabilité**                          | 3/10                                      | 4/10                                                                                        | 3/10                                      |
+| **Température de service maximale**     | 52°C                                      | 52°C                                                                                        | 52°C                                      |
+| **Coefficient de dilatation thermique** | 57,5 µm/m°C                               | 33,75 µm/m°C                                                                                | 30,5 µm/m°C                               |
+| **Densité**                             | 1,3 g/cm³                                 | 2-4 g/cm³                                                                                   | 1,15 - 1,25 g/cm³                         |
+| **Prix**                                | 30-80 €/kg                                | 50-120 €/kg                                                                                 | 25-55 €/kg                                |
+| **Imprimabilité**                       | 7/10                                      | 8/10                                                                                        | 6/10                                      |
+| **Température de l'extrudeuse**         | 200 - 230°C                               | 190 - 220°C                                                                                 | 190 - 220°C                               |
+| **Température du lit**                  | 45 - 60°C                                 | 45 - 60°C                                                                                   | 45 - 60°C                                 |
+| **Surface de construction recommandée** | Bâton de colle, Plaque PEI lisse/texturée | Bâton de colle, Plaque PEI lisse/texturée                                                   | Bâton de colle, Plaque PEI lisse/texturée |
+| **Autres recommandations matérielles**  | Ventilateur de refroidissement            | Buse résistante à l'usure ou en acier inoxydable, Ventilateur de refroidissement des pièces | Ventilateur de refroidissement            |
+| **Résistance aux chocs**                | :x:                                       | :white_check_mark:                                                                          | :x:                                       |
+| **Résistance aux UV**                   | :x:                                       | :x:                                                                                         | :x:                                       |
+| **Résistance à l'eau**                  | :x:                                       | :x:                                                                                         | :x:                                       |
+| **Résistance chimique**                 | :x:                                       | :x:                                                                                         | :x:                                       |
 
 ---
 
-Last update: Nov. 2024
-Author: Yann VIDAMMENT
+Dernière mise à jour : Nov. 2024
+Auteur : Yann VIDAMMENT

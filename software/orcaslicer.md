@@ -1,24 +1,24 @@
 # 3D Slicer - OrcaSlicer
 
-> This is a template for a subject.
+> Ceci est un modèle pour un sujet.
 
-![Software](../assets/orcaslicer-1.png)
+![Logiciel](../assets/orcaslicer-1.png)
 
-## Table of Contents
+## Table des matières
 
 - [3D Slicer - OrcaSlicer](#3d-slicer---orcaslicer)
-  - [Table of Contents](#table-of-contents)
+  - [Table des matières](#table-des-matières)
   - [Introduction](#introduction)
-  - [Creation of the Printing "Scenario" (G-code)](#creation-of-the-printing-scenario-g-code)
-  - [Positioning the Object on the Plate](#positioning-the-object-on-the-plate)
-  - [Defining the Part's Infill](#defining-the-parts-infill)
-  - [Creating Supports](#creating-supports)
+  - [Création du "Scénario" d'impression (G-code)](#création-du-scénario-dimpression-g-code)
+  - [Positionnement de l'objet sur la plaque](#positionnement-de-lobjet-sur-la-plaque)
+  - [Définition du remplissage de la pièce](#définition-du-remplissage-de-la-pièce)
+  - [Création de supports](#création-de-supports)
 
 ## Introduction
 
-The slicer allows the conversion of the file you have modeled into a series of layers, more or less fine, corresponding to the different stages of constructing the actual print. The software then generates a G-code that contains all the printing instructions that will be sent to the printer. This is the step during which the settings related to printing (nozzle and plate temperature, printing speed, fan, etc.) are made.
+Le slicer permet la conversion du fichier que vous avez modélisé en une série de couches, plus ou moins fines, correspondant aux différentes étapes de construction de l'impression réelle. Le logiciel génère ensuite un G-code qui contient toutes les instructions d'impression qui seront envoyées à l'imprimante. C'est l'étape durant laquelle les réglages relatifs à l'impression (température de la buse et de la plaque, vitesse d'impression, ventilateur, etc.) sont effectués.
 
-The most commonly used slicers are:
+Les slicers les plus couramment utilisés sont :
 
 - BambuStudio (BambuLab)
 - PrusaSlicer (Prusa)
@@ -26,28 +26,27 @@ The most commonly used slicers are:
 - IdeaMaker (Raise3D)
 - SuperSlicer (_Open Source_)
 
-Among this non-exhaustive list, we find the market leaders, often associated with a 3D printer brand. However, it is important to note that most of these slicers allow the creation of G-codes for a large number of 3D printers other than those of the proprietary brand. However, there is the risk of not having access to all the printer's features (such as Bambulab's AMS).
+Parmi cette liste non exhaustive, nous trouvons les leaders du marché, souvent associés à une marque d'imprimante 3D. Cependant, il est important de noter que la plupart de ces slicers permettent la création de G-codes pour un grand nombre d'imprimantes 3D autres que celles de la marque propriétaire. Cependant, il y a le risque de ne pas avoir accès à toutes les fonctionnalités de l'imprimante (comme l'AMS de Bambulab).
 
-Finally, the roles of the slicer can be summarized in 4 major points:
+Enfin, les rôles du slicer peuvent être résumés en 4 points majeurs :
 
-## Creation of the Printing "Scenario" (G-code)
+## Création du "Scénario" d'impression (G-code)
 
-It is more commonly called the printing path, but with the notion of a scenario, we understand the idea of the step-by-step projection of the future print.
+Il est plus communément appelé le trajet d'impression, mais avec la notion de scénario, nous comprenons l'idée de la projection étape par étape de la future impression.
 
-## Positioning the Object on the Plate
+## Positionnement de l'objet sur la plaque
 
-We choose its orientation, for technical reasons but also for aesthetic reasons, especially with filament deposition printing. Indeed, with FDM, the layering from layer to layer is visible, so we will have to choose whether we want the part to be printed to have horizontal or vertical layering, for example. This will also impact the strength of the print. If we print without relief, we can also choose to print the face of the object on the plate to benefit from the shine of this face.
+Nous choisissons son orientation, pour des raisons techniques mais aussi esthétiques, surtout avec l'impression par dépôt de filament. En effet, avec le FDM, le feuilletage de couche en couche est visible, donc nous devrons choisir si nous voulons que la pièce à imprimer ait un feuilletage horizontal ou vertical, par exemple. Cela impactera également la solidité de l'impression. Si nous imprimons sans relief, nous pouvons aussi choisir d'imprimer la face de l'objet sur la plaque pour bénéficier de la brillance de cette face.
 
-## Defining the Part's Infill
+## Définition du remplissage de la pièce
 
-It is possible to choose what type of infill according to the properties we want (we will find honeycombs, gyroids, or grids). Similarly, the infill density is an important factor in the strength of the part. This will define, among other things, the printing time but also the rigidity, solidity, and lightness of the part.
+Il est possible de choisir quel type de remplissage en fonction des propriétés que nous voulons (nous trouverons des nids d'abeille, des gyroïdes ou des grilles). De même, la densité de remplissage est un facteur important dans la solidité de la pièce. Cela définira, entre autres, le temps d'impression mais aussi la rigidité, la solidité et la légèreté de la pièce.
 
-## Creating Supports
+## Création de supports
 
-Extrusion cannot attach to the void; support is needed to give the hot extruded filament time to harden. Different support models exist depending on the needs, such as grids or organic supports. It is also possible to choose where to place the supports and even define areas without support in most slicers.
+L'extrusion ne peut pas s'accrocher au vide ; un support est nécessaire pour donner le temps au filament extrudé chaud de durcir. Différents modèles de supports existent selon les besoins, comme les grilles ou les supports organiques. Il est également possible de choisir où placer les supports et même définir des zones sans support dans la plupart des slicers.
 
 ---
 
-Last update: Nov. 2024
-
-Author: Yann VIDAMMENT
+Dernière mise à jour : Nov. 2024
+Auteur : Yann VIDAMMENT

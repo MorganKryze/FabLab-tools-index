@@ -1,72 +1,71 @@
-# Safety equipments
+# Équipements de sécurité
 
-> This guide will show you which safety equipments are available in the Fablab and when to use them.
+> Ce guide vous montrera quels équipements de sécurité sont disponibles dans le Fablab et quand les utiliser.
 
-![Safety equipments](../assets/safety-1.png)
+![Équipements de sécurité](../assets/safety-1.png)
 
-## Table of Contents
+## Table des matières
 
-- [Safety equipments](#safety-equipments)
-  - [Table of Contents](#table-of-contents)
+- [Équipements de sécurité](#équipements-de-sécurité)
+  - [Table des matières](#table-des-matières)
   - [Introduction](#introduction)
-  - [PPE | Personal Protective Equipment](#ppe--personal-protective-equipment)
-  - [Fire extinguisher](#fire-extinguisher)
-  - [First aid kit](#first-aid-kit)
-  - [Callable numbers](#callable-numbers)
+  - [EPI | Équipement de Protection Individuelle](#epi--équipement-de-protection-individuelle)
+  - [Extincteur](#extincteur)
+  - [Trousse de premiers secours](#trousse-de-premiers-secours)
+  - [Numéros à appeler](#numéros-à-appeler)
 
 ## Introduction
 
-Working in a Fablab is not a risk-free activity and needs time to process which protection will be adapted to which fabrication technique. Precipitation will be the main cause of accidents.
+Travailler dans un Fablab n'est pas une activité sans risque et nécessite du temps pour déterminer quelle protection est adaptée à quelle technique de fabrication. La précipitation sera la principale cause d'accidents.
 
-This guide will tackle both prevention equipments as well as response to danger procedures.
+Ce guide abordera à la fois les équipements de prévention et les procédures de réponse aux dangers.
 
-If you may have any doubt or inquiry, please refer to your supervisor.
+Si vous avez des doutes ou des questions, veuillez vous référer à votre superviseur.
 
-## PPE | Personal Protective Equipment
+## EPI | Équipement de Protection Individuelle
 
-Personal Protective Equipment is a must-have in a Fablab. It is the first line of defense against accidents. Here is a list of PPE available in the Fablab:
+L'Équipement de Protection Individuelle est indispensable dans un Fablab. C'est la première ligne de défense contre les accidents. Voici une liste des EPI disponibles dans le Fablab :
 
-| Equipment             | Dangers it answers to | Illustration                       |
-| --------------------- | --------------------- | ---------------------------------- |
-| Plastic glasses       | Projections, chips    | ![glasses](../assets/safety-2.png) |
-| Cut resistant gloves  | Cut, saw, cutter      | ![gloves](../assets/safety-3.png)  |
-| Heat resistant gloves | High heat             | ![gloves](../assets/safety-4.png)  |
-| Headset               | Loud noises           | ![headset](../assets/safety-5.png) |
-| Gaz mask              | Fumes, projections    | ![mask](../assets/safety-6.png)    |
+| Équipement                    | Dangers auxquels il répond | Illustration                        |
+| ----------------------------- | -------------------------- | ----------------------------------- |
+| Lunettes en plastique         | Projections, copeaux       | ![lunettes](../assets/safety-2.png) |
+| Gants résistants aux coupures | Coupe, scie, cutter        | ![gants](../assets/safety-3.png)    |
+| Gants résistants à la chaleur | Forte chaleur              | ![gants](../assets/safety-4.png)    |
+| Casque antibruit              | Bruits forts               | ![casque](../assets/safety-5.png)   |
+| Masque à gaz                  | Fumées, projections        | ![masque](../assets/safety-6.png)   |
 
-## Fire extinguisher
+## Extincteur
 
-There exist two types of fire extinguishers that we could use :
+Il existe deux types d'extincteurs que nous pouvons utiliser :
 
-- **Water extinguisher** : This type of extinguisher is used for class A fires. It displays a high efficiency in extinguishing wood, paper, and textile fires. It is not recommended for electrical fires or flammable liquids as it dispenses water at a high pressure.
-- **CO2 extinguisher** : This type of extinguisher is used for class B and C fires. It is efficient in extinguishing electrical fires and flammable liquids. It is not recommended for class A fires as it does not cool down the fire.
+- **Extincteur à eau** : Ce type d'extincteur est utilisé pour les feux de classe A. Il est très efficace pour éteindre les feux de bois, de papier et de textile. Il n'est pas recommandé pour les feux électriques ou les liquides inflammables car il projette de l'eau à haute pression.
+- **Extincteur à CO2** : Ce type d'extincteur est utilisé pour les feux de classe B et C. Il est efficace pour éteindre les feux électriques et les liquides inflammables. Il n'est pas recommandé pour les feux de classe A car il ne refroidit pas le feu.
 
-## First aid kit
+## Trousse de premiers secours
 
-You may find in the corridor a first aid kit. It contains the following items :
+Vous pouvez trouver une trousse de premiers secours dans le couloir. Elle contient les éléments suivants :
 
-- **Bandages** : To cover wounds and stop bleeding.
-- **Compression gaze pads** : To stop bleeding.
-- **Disinfectant** : To clean wounds.
-- **Scissors** : To cut bandages.
-- **Tweezers** : To remove splinters.
-- **Blanket** : To keep the victim warm.
-- **Triangular bandage** : To immobilize a limb.
-- **Gloves** : To protect the first aider.
-- **Eye wash** : To clean eyes.
+- **Bandages** : Pour couvrir les plaies et arrêter les saignements.
+- **Compresses de gaze** : Pour arrêter les saignements.
+- **Désinfectant** : Pour nettoyer les plaies.
+- **Ciseaux** : Pour couper les bandages.
+- **Pince à épiler** : Pour enlever les échardes.
+- **Couverture** : Pour garder la victime au chaud.
+- **Bande triangulaire** : Pour immobiliser un membre.
+- **Gants** : Pour protéger le secouriste.
+- **Lotion pour les yeux** : Pour nettoyer les yeux.
 
-For more information, an exhaustive list is available on the first aid kit itself.
+Pour plus d'informations, une liste exhaustive est disponible sur la trousse de premiers secours elle-même.
 
-## Callable numbers
+## Numéros à appeler
 
-In case of emergency, here are the numbers you should call :
+En cas d'urgence, voici les numéros à appeler :
 
-- **Firefighters** : 18 (direct line from the building)
+- **Pompiers** : 18 (ligne directe depuis le bâtiment)
 - **Ambulance** : 15
-- **Poison control center** : 01 40 05 48 48
+- **Centre antipoison** : 01 40 05 48 48
 
 ---
 
-Last update: Nov. 2024
-
-Author: Yann VIDAMMENT
+Dernière mise à jour : Nov. 2024
+Auteur : Yann VIDAMMENT

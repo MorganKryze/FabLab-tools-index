@@ -1,115 +1,114 @@
-# 3D Printer - Bambulab X1 Carbon
+# Imprimante 3D - Bambulab X1 Carbon
 
-> This guide will teach you how to use prepare and print a 3D model using the Bambulab X1 Carbon 3D printer.
+> Ce guide vous apprendra à préparer et imprimer un modèle 3D en utilisant l'imprimante 3D Bambulab X1 Carbon.
 
 ![Bambulab X1 Carbon](../assets/bambulab-1.png)
 
-## Table of Contents
+## Table des matières
 
-- [3D Printer - Bambulab X1 Carbon](#3d-printer---bambulab-x1-carbon)
-  - [Table of Contents](#table-of-contents)
+- [Imprimante 3D - Bambulab X1 Carbon](#imprimante-3d---bambulab-x1-carbon)
+  - [Table des matières](#table-des-matières)
   - [Introduction](#introduction)
-  - [Risks and protections](#risks-and-protections)
-  - [The Printer](#the-printer)
-    - [The AMS (specific to Bambulab)](#the-ams-specific-to-bambulab)
-    - [The extruder](#the-extruder)
-    - [The heating Body](#the-heating-body)
-    - [The plate](#the-plate)
-  - [The filaments](#the-filaments)
-  - [Printing Protocol](#printing-protocol)
-    - [Retrieving the File](#retrieving-the-file)
-    - [Slicing your files](#slicing-your-files)
-    - [Preparing the Printer](#preparing-the-printer)
+  - [Risques et protections](#risques-et-protections)
+  - [L'imprimante](#limprimante)
+    - [L'AMS (spécifique à Bambulab)](#lams-spécifique-à-bambulab)
+    - [L'extrudeuse](#lextrudeuse)
+    - [Le corps chauffant](#le-corps-chauffant)
+    - [La plaque](#la-plaque)
+  - [Les filaments](#les-filaments)
+  - [Protocole d'impression](#protocole-dimpression)
+    - [Récupération du fichier](#récupération-du-fichier)
+    - [Découpage de vos fichiers](#découpage-de-vos-fichiers)
+    - [Préparation de l'imprimante](#préparation-de-limprimante)
 
 ## Introduction
 
-Fused Deposition Modeling (FDM) 3D printing is the most common method for 3D printing. It involves depositing a thread of molten thermoplastic material onto a plate, layer by layer, to create a 3-dimensional object.
+L'impression 3D par modélisation par dépôt de filament (FDM) est la méthode la plus courante pour l'impression 3D. Elle consiste à déposer un fil de matériau thermoplastique fondu sur une plaque, couche par couche, pour créer un objet tridimensionnel.
 
-The necessary equipment for 3D printing is as follows:
+L'équipement nécessaire pour l'impression 3D est le suivant :
 
-- An FDM 3D printer (here Bambulab X1 Carbon)
-- Thermoplastic filament
-- A computer with slicing software
-- The object file to be printed
+- Une imprimante 3D FDM (ici Bambulab X1 Carbon)
+- Un filament thermoplastique
+- Un ordinateur avec un logiciel de découpage
+- Le fichier de l'objet à imprimer
 
-Here is a detailed schema to understand the process:
+Voici un schéma détaillé pour comprendre le processus :
 
-![3D Printing Process](../assets/bambulab-6.png)
+![Processus d'impression 3D](../assets/bambulab-6.png)
 
-## Risks and protections
+## Risques et protections
 
-| Material                   | Risk  | Protection                                              |
-| -------------------------- | ----- | ------------------------------------------------------- |
-| Standard plastics \ ABS    | None  | None                                                    |
-| Engineering plastics & ABS | Fumes | Ventilation, opening windows                            |
-| Composite plastics         | Fumes | Ventilation, opening windows, avoid staying in the room |
+| Matériau                    | Risque | Protection                                                          |
+| --------------------------- | ------ | ------------------------------------------------------------------- |
+| Plastiques standards \ ABS  | Aucun  | Aucune                                                              |
+| Plastiques techniques & ABS | Fumées | Ventilation, ouverture des fenêtres                                 |
+| Plastiques composites       | Fumées | Ventilation, ouverture des fenêtres, éviter de rester dans la pièce |
 
-## The Printer
+## L'imprimante
 
-### The AMS (specific to Bambulab)
+### L'AMS (spécifique à Bambulab)
 
-The Bambulab AMS is an automatic material management system that allows 3D printing with up to four different filaments without having to manually change the spools. It uses an automatic filament recognition system (RFID) to identify the spools and an automatic spool changing system (ABC) to change them automatically when the filament runs out. The AMS is also equipped with a filament drying system to eliminate moisture and improve print quality.
+L'AMS Bambulab est un système de gestion automatique des matériaux qui permet l'impression 3D avec jusqu'à quatre filaments différents sans avoir à changer manuellement les bobines. Il utilise un système de reconnaissance automatique des filaments (RFID) pour identifier les bobines et un système de changement automatique des bobines (ABC) pour les changer automatiquement lorsque le filament est épuisé. L'AMS est également équipé d'un système de séchage des filaments pour éliminer l'humidité et améliorer la qualité d'impression.
 
 ![AMS](../assets/bambulab-2.png)
 
-### The extruder
+### L'extrudeuse
 
-The extruder is the module that pulls the filament. It consists of a stepper motor that drives a gear that advances the filament into the heating body. It is prone to clogging or jamming during use (useful to know for troubleshooting).
-The extruder of the Bambulab X1 Carbon printer is a direct extruder. This means it is located directly above the printing plate. This allows for better control of the temperature and pressure of the filament, resulting in higher quality prints. The X1 Carbon extruder is also equipped with a water-cooling system, which allows for printing high-temperature filaments such as PETG and Nylon.
+L'extrudeuse est le module qui tire le filament. Elle se compose d'un moteur pas à pas qui entraîne un engrenage qui fait avancer le filament dans le corps chauffant. Elle est sujette aux bourrages ou aux blocages pendant l'utilisation (utile à savoir pour le dépannage).
+L'extrudeuse de l'imprimante Bambulab X1 Carbon est une extrudeuse directe. Cela signifie qu'elle est située directement au-dessus de la plaque d'impression. Cela permet un meilleur contrôle de la température et de la pression du filament, résultant en des impressions de meilleure qualité. L'extrudeuse X1 Carbon est également équipée d'un système de refroidissement par eau, qui permet d'imprimer des filaments à haute température comme le PETG et le Nylon.
 
-![Extruder](../assets/bambulab-3.png)
+![Extrudeuse](../assets/bambulab-3.png)
 
-### The heating Body
+### Le corps chauffant
 
-After passing through the extruder, the filament goes into the heating body. It consists of a PTFE (Teflon) tube that guides the filament to the nozzle. It is also equipped with a heating cartridge that melts the filament and a temperature sensor that controls the filament temperature. The temperatures vary depending on the filaments used (see below).
+Après être passé par l'extrudeuse, le filament entre dans le corps chauffant. Il se compose d'un tube en PTFE (Téflon) qui guide le filament vers la buse. Il est également équipé d'une cartouche chauffante qui fait fondre le filament et d'un capteur de température qui contrôle la température du filament. Les températures varient en fonction des filaments utilisés (voir ci-dessous).
 
-![Heating Body](../assets/bambulab-4.png)
+![Corps chauffant](../assets/bambulab-4.png)
 
-### The plate
+### La plaque
 
-Finally, the plate is the surface on which the printing is done. It is heated to allow better adhesion of the filament. It is also equipped with a temperature sensor that controls the plate temperature. The temperatures also vary depending on the filaments used (see below). Textured plates exist to improve filament adhesion. It is also possible to use removable printing surfaces (BuildTak, PEI, or satin) to facilitate the removal of the print.
+Enfin, la plaque est la surface sur laquelle l'impression est réalisée. Elle est chauffée pour permettre une meilleure adhésion du filament. Elle est également équipée d'un capteur de température qui contrôle la température de la plaque. Les températures varient également en fonction des filaments utilisés (voir ci-dessous). Des plaques texturées existent pour améliorer l'adhésion du filament. Il est également possible d'utiliser des surfaces d'impression amovibles (BuildTak, PEI ou satin) pour faciliter le retrait de l'impression.
 
-![Plate](../assets/bambulab-5.png)
+![Plaque](../assets/bambulab-5.png)
 
-## The filaments
+## Les filaments
 
-3D printer filament is one of the most commonly used categories of 3D printing materials in the world. Unlike powder and liquid resin and other 3D printing technologies, filament is produced in the form of a fine, continuous plastic thread several hundred meters long, which is generally wound onto a spool for storage and feeding into the printer. Determined by the thermal extrusion process of FDM printers, the raw material of the filament is a thermoplastic material including the most commonly used plastics in life, as well as some special formula materials for certain uses.
+Le filament pour imprimante 3D est l'une des catégories de matériaux d'impression 3D les plus couramment utilisées au monde. Contrairement à la poudre et à la résine liquide et autres technologies d'impression 3D, le filament est produit sous la forme d'un fil plastique fin et continu de plusieurs centaines de mètres de long, généralement enroulé sur une bobine pour le stockage et l'alimentation dans l'imprimante. Déterminé par le processus d'extrusion thermique des imprimantes FDM, le matériau brut du filament est un matériau thermoplastique incluant les plastiques les plus couramment utilisés dans la vie quotidienne, ainsi que certains matériaux à formule spéciale pour certaines utilisations.
 
-For more information about the filaments, consider reading the [Filament | FDM plastics](../consumables/filament.md) guide.
+Pour plus d'informations sur les filaments, consultez le guide [Filament | Plastiques FDM](../consumables/filament.md).
 
-## Printing Protocol
+## Protocole d'impression
 
-### Retrieving the File
+### Récupération du fichier
 
-The first step is to retrieve the file to be printed. This file must be in a format compatible with the slicing software used. The most common format is .stl (in some case .obj). The file can be downloaded from the internet, created using CAD software, or scanned using a 3D scanner.
+La première étape consiste à récupérer le fichier à imprimer. Ce fichier doit être dans un format compatible avec le logiciel de découpage utilisé. Le format le plus courant est .stl (dans certains cas .obj). Le fichier peut être téléchargé depuis Internet, créé à l'aide d'un logiciel de CAO ou scanné à l'aide d'un scanner 3D.
 
-The major sources of 3D models are:
+Les principales sources de modèles 3D sont :
 
-- [Thingiverse](https://www.thingiverse.com/), supported by Cura
-- [Printables](https://www.prusaprinters.org/prints), supported by Prusa
-- [MakerWorld](https://www.makerworld.com/), supported by Bambulab
-- [Cults3D](https://cults3d.com/), independent
+- [Thingiverse](https://www.thingiverse.com/), supporté par Cura
+- [Printables](https://www.prusaprinters.org/prints), supporté par Prusa
+- [MakerWorld](https://www.makerworld.com/), supporté par Bambulab
+- [Cults3D](https://cults3d.com/), indépendant
 
-In addition, you may encounter .3mf files, which are a container format that can store 3D models, associated data, and metadata in a single file. This format is supported by Orcaslicer.
+En outre, vous pouvez rencontrer des fichiers .3mf, qui sont un format conteneur pouvant stocker des modèles 3D, des données associées et des métadonnées dans un seul fichier. Ce format est supporté par Orcaslicer.
 
-### Slicing your files
+### Découpage de vos fichiers
 
-The second step is to slice the file. Slicing is the process of converting a 3D model file into a set of instructions for the 3D printer. This set of instructions is called G-code. The slicing software allows you to configure the print settings (layer height, print speed, temperature, etc.) and to visualize the print before starting it.
+La deuxième étape consiste à découper le fichier. Le découpage est le processus de conversion d'un fichier de modèle 3D en un ensemble d'instructions pour l'imprimante 3D. Cet ensemble d'instructions est appelé G-code. Le logiciel de découpage permet de configurer les paramètres d'impression (hauteur de couche, vitesse d'impression, température, etc.) et de visualiser l'impression avant de la démarrer.
 
-For more information about slicing software, consider reading the [3D slicer | OrcaSlicer](../software/orcaslicer.md) guide.
+Pour plus d'informations sur le logiciel de découpage, consultez le guide [3D slicer | OrcaSlicer](../software/orcaslicer.md).
 
-### Preparing the Printer
+### Préparation de l'imprimante
 
-Once your file is sliced, you need to prepare the printer. This involves checking:
+Une fois votre fichier découpé, vous devez préparer l'imprimante. Cela implique de vérifier :
 
-- The filament is loaded correctly in the back of the printer or the AMS is plugged in and recognized
-- There is enough filament for the print you intend to do
-- The plate is clean and leveled
+- Que le filament est correctement chargé à l'arrière de l'imprimante ou que l'AMS est branché et reconnu
+- Qu'il y a suffisamment de filament pour l'impression que vous envisagez de faire
+- Que la plaque est propre et nivelée
 
-Once everything is ready, you can start the print. The printer will heat up the plate and the extruder to the required temperatures and start printing.
+Une fois que tout est prêt, vous pouvez démarrer l'impression. L'imprimante chauffera la plaque et l'extrudeuse aux températures requises et commencera à imprimer.
 
 ---
 
-Last update: Nov. 2024
-
-Author: Yann VIDAMMENT
+Dernière mise à jour : Nov. 2024
+Auteur : Yann VIDAMMENT
