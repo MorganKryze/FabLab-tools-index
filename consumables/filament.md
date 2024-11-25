@@ -8,22 +8,22 @@
 
 - [3D Filament](#3d-filament)
   - [TOC](#toc)
-  - [Filaments](#filaments)
-    - [Standard plastics](#standard-plastics)
-    - [Engineering plastics](#engineering-plastics)
-    - [Composite plastics](#composite-plastics)
+  - [Introduction](#introduction)
+  - [Standard plastics](#standard-plastics)
+  - [Engineering plastics](#engineering-plastics)
+  - [Composite plastics](#composite-plastics)
 
-## Filaments
+## Introduction
 
 There are three main types of filaments used in 3D printing: standard plastics, engineering plastics, and composite plastics. Each type has its own characteristics and is suitable for different applications.
 
 Though, they share some common properties:
 
-- They are all thermoplastics, meaning they can be melted and reshaped multiple times.
-- They are all available in a wide range of colors and finishes.
-- They are all available in 1.75mm and 2.85mm diameters even if 1.75mm is the general standard.
+- They are **all thermoplastics**, meaning they can be melted and reshaped multiple times.
+- They are all available in a **wide range of colors** and finishes.
+- They are **all available in 1.75mm** and 2.85mm diameters even if 1.75mm is the general standard.
 
-### Standard plastics
+## Standard plastics
 
 Standard filament material require no particular handling and are easy to print. They are the most common materials used in 3D printing and are suitable for most applications. They offer a natural compatibility the Bambulab AMS (Automatic Material System). see [ref](../hardware/bambulab.md).
 
@@ -46,32 +46,32 @@ Standard filament material require no particular handling and are easy to print.
 | **Water Resistant**                  | :x:                       | :white_check_mark:             | :x:                            |
 | **Chemically Resistant**             | :x:                       | :white_check_mark:             | :x:                            |
 
-### Engineering plastics
+## Engineering plastics
 
-Engineering plastics are more resistant and durable than standard plastics. They are suitable for more demanding applications. They require more specific handling and are more difficult to print. They should not be used with the AMS but rather placed on the spool holder.
+Engineering plastics are more resistant and durable than standard plastics. They are suitable for more demanding applications. They require more specific handling and are more difficult to print. They **should not be used** with the AMS but rather placed on the spool holder.
 
-| Material                             | Flex                           | Nylon                          | ASA                                | Polycarbonate                      |
-| ------------------------------------ | ------------------------------ | ------------------------------ | ---------------------------------- | ---------------------------------- |
-| **Grade**                            | 6/10                           | 8/10                           | 7/10                               | 7/10                               |
-| **Ultimate Strength**                | 26-43 MPa                      | 40-85 MPa                      | 55 MPa                             | 72 MPa                             |
-| **Durability**                       | 9/10                           | 10/10                          | 10/10                              | 10/10                              |
-| **Maximum Service Temperature**      | 70°C                           | 90°C                           | 65°C                               | 120°C                              |
-| **Coefficient of Thermal Expansion** | 70 µm/m°C                      | 95 µm/m°C                      | 85 µm/m°C                          | 68 µm/m°C                          |
-| **Density**                          | 1.19 - 1.23 g/cm³              | 1.12 g/cm³                     | 1.07 g/cm³                         | 1.2 g/cm³                          |
-| **Price**                            | 30-70 €/kg                     | 25-65 €/kg                     | 30-40 €/kg                         | 40-75 €/kg                         |
-| **Printability**                     | 6/10                           | 8/10                           | 7/10                               | 7/10                               |
-| **Extruder Temperature**             | 225 - 245°C                    | 230 - 260°C                    | 240 - 270°C                        | 260 - 310°C                        |
-| **Bed Temperature**                  | 45 - 60°C                      | 70 - 90°C                      | 90 - 110°C                         | 80 - 120°C                         |
-| **Recommended Build Surface**        | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate     | Glue Stick, Textured PEI Plate     |
-| **Other Hardware Recommendations**   | Cooling Fan                    | Enclosure Recommended          | Enclosure Recommended, Cooling Fan | Enclosure Recommended, Cooling Fan |
-| **Impact Resistance**                | :x:                            | :white_check_mark:             | :white_check_mark:                 | :white_check_mark:                 |
-| **UV Resistant**                     | :x:                            | :x:                            | :x:                                | :x:                                |
-| **Water Resistant**                  | :x:                            | :white_check_mark:             | :white_check_mark:                 | :x:                                |
-| **Chemically Resistant**             | :x:                            | :x:                            | :x:                                | :x:                                |
+| Material                             | Flex                           | Nylon                          | ASA                            | Polycarbonate                   |
+| ------------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------- |
+| **Grade**                            | 6/10                           | 8/10                           | 7/10                           | 7/10                            |
+| **Ultimate Strength**                | 26-43 MPa                      | 40-85 MPa                      | 55 MPa                         | 72 MPa                          |
+| **Durability**                       | 9/10                           | 10/10                          | 10/10                          | 10/10                           |
+| **Maximum Service Temperature**      | 70°C                           | 90°C                           | 65°C                           | 120°C                           |
+| **Coefficient of Thermal Expansion** | 70 µm/m°C                      | 95 µm/m°C                      | 85 µm/m°C                      | 68 µm/m°C                       |
+| **Density**                          | 1.19 - 1.23 g/cm³              | 1.12 g/cm³                     | 1.07 g/cm³                     | 1.2 g/cm³                       |
+| **Price**                            | 30-70 €/kg                     | 25-65 €/kg                     | 30-40 €/kg                     | 40-75 €/kg                      |
+| **Printability**                     | 6/10                           | 8/10                           | 7/10                           | 7/10                            |
+| **Extruder Temperature**             | 225 - 245°C                    | 230 - 260°C                    | 240 - 270°C                    | 260 - 310°C                     |
+| **Bed Temperature**                  | 45 - 60°C                      | 70 - 90°C                      | 90 - 110°C                     | 80 - 120°C                      |
+| **Recommended Build Surface**        | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate | Glue Stick, Textured PEI Plate  |
+| **Other Hardware Recommendations**   | Cooling Fan                    | Enclosure Required             | Enclosure Required             | Enclosure Required, Cooling Fan |
+| **Impact Resistance**                | :x:                            | :white_check_mark:             | :white_check_mark:             | :white_check_mark:              |
+| **UV Resistant**                     | :x:                            | :x:                            | :x:                            | :x:                             |
+| **Water Resistant**                  | :x:                            | :white_check_mark:             | :white_check_mark:             | :x:                             |
+| **Chemically Resistant**             | :x:                            | :x:                            | :x:                            | :x:                             |
 
-### Composite plastics
+## Composite plastics
 
-Composite filaments are made of a base material and a filler material. They offer unique properties such as increased strength, weight reduction, or a wood-like finish. They require specific handling and are more difficult to print. They should not be used with the AMS but rather placed on the spool holder.
+Composite filaments are made of a base material and a filler material. They offer unique properties such as increased strength, weight reduction, or a wood-like finish. They require specific handling and are more difficult to print. They **should not be used** with the AMS but rather placed on the spool holder.
 
 | Material                             | Carbon Fiber Filled                   | Metal Filled                                               | Wood Filled                           |
 | ------------------------------------ | ------------------------------------- | ---------------------------------------------------------- | ------------------------------------- |
