@@ -40,7 +40,7 @@
 
 ## Software
 
-- [3D slicer | OrcaSlicer](software/orcaslicer.md) WIP
+- [3D slicer | OrcaSlicer](software/orcaslicer.md)
 - CAO
 - CNC
 - Code editor : Vscode + PlatformIO
