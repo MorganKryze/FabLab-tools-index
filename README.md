@@ -58,7 +58,7 @@
 Tous les équipements de sécurité sont listés dans [ce guide](safety/equipements.md).
 
 | Matériel            | Risque                       | Protection                                      |
-| ------------------- | ---------------------------- | ----------------------------------------------- | --- |
+| ------------------- | ---------------------------- | ----------------------------------------------- |
 | Imprimante 3D & ABS | Fumées                       | Ventilation, ouverture des fenêtres             |
 | CNC & bois          | Poussière, projections       | Masque, aspirateur, lunettes                    |
 | CNC & métal         | Copeaux, projections         | Lunettes, gants                                 |
@@ -66,9 +66,9 @@ Tous les équipements de sécurité sont listés dans [ce guide](safety/equipeme
 | Fer à souder        | Brûlures, projections        | Gants, lunettes                                 |
 | Pistolet thermique  | Brûlures, projections        | Gants, lunettes                                 |
 | Pistolet à colle    | Brûlures                     | Gants                                           |
-| Perceuse            | Projections, blessures       | Lunettes, gants                                 |     |
-| Ponceuse            | Poussière, projections       | Masque, lunettes, gants                         |     |
-| Kit de soudure      | Brûlures, projections        | Gants, lunettes                                 |     |
+| Perceuse            | Projections, blessures       | Lunettes, gants                                 |
+| Ponceuse            | Poussière, projections       | Masque, lunettes, gants                         |
+| Kit de soudure      | Brûlures, projections        | Gants, lunettes                                 |
 
 ---
 
