@@ -59,16 +59,16 @@ All safety equipments are listed in [this guide](safety/equipements.md).
 
 | Material         | Risk                      | Protection                             | Relevant ISO Standards |
 | ---------------- | ------------------------- | -------------------------------------- | ---------------------- |
-| 3D Printer & ABS | Fumes                     | Ventilation, opening windows           | ISO 16000              |
-| CNC & wood       | Dust, projections         | Mask, vacuum cleaner, glasses          | ISO 16000 , ISO 13849  |
-| CNC & metal      | Chips, projections        | Glasses, gloves                        | ISO 13849 , ISO 45001  |
-| CNC & plastic    | Chips, projections, Fumes | Mask, glasses, gloves, opening windows | ISO 13849 , ISO 16000  |
-| Soldering iron   | Burns, projections        | Gloves, glasses                        | ISO 45001 , ISO 13849  |
-| Heat Gun         | Burns, projections        | Gloves, glasses                        | ISO 45001 , ISO 13849  |
-| Glue gun         | Burns                     | Gloves                                 | ISO 45001              |
-| Drill            | Projections, injuries     | Glasses, gloves                        | ISO 13849 , ISO 45001  |
-| Sanding machine  | Dust, projections         | Mask, glasses, gloves                  | ISO 16000 , ISO 13849  |
-| Soldering kit    | Burns, projections        | Gloves, glasses                        | ISO 45001 , ISO 13849  |
+| 3D Printer & ABS | Fumes                     | Ventilation, opening windows           | 16000                  |
+| CNC & wood       | Dust, projections         | Mask, vacuum cleaner, glasses          | 16000 , 13849          |
+| CNC & metal      | Chips, projections        | Glasses, gloves                        | 13849 , 45001          |
+| CNC & plastic    | Chips, projections, Fumes | Mask, glasses, gloves, opening windows | 13849 , 16000          |
+| Soldering iron   | Burns, projections        | Gloves, glasses                        | 45001 , 13849          |
+| Heat Gun         | Burns, projections        | Gloves, glasses                        | 45001 , 13849          |
+| Glue gun         | Burns                     | Gloves                                 | 45001                  |
+| Drill            | Projections, injuries     | Glasses, gloves                        | 13849 , 45001          |
+| Sanding machine  | Dust, projections         | Mask, glasses, gloves                  | 16000 , 13849          |
+| Soldering kit    | Burns, projections        | Gloves, glasses                        | 45001 , 13849          |
 
 Explanation of ISO standards tackled in the table:
 
