@@ -57,27 +57,32 @@
 
 All safety equipments are listed in [this guide](safety/equipements.md).
 
-| Material         | Risk                      | Protection                             | Relevant ISO Standards |
-| ---------------- | ------------------------- | -------------------------------------- | ---------------------- |
-| 3D Printer & ABS | Fumes                     | Ventilation, opening windows           | 16000                  |
-| CNC & wood       | Dust, projections         | Mask, vacuum cleaner, glasses          | 16000 , 13849          |
-| CNC & metal      | Chips, projections        | Glasses, gloves                        | 13849 , 45001          |
-| CNC & plastic    | Chips, projections, Fumes | Mask, glasses, gloves, opening windows | 13849 , 16000          |
-| Soldering iron   | Burns, projections        | Gloves, glasses                        | 45001 , 13849          |
-| Heat Gun         | Burns, projections        | Gloves, glasses                        | 45001 , 13849          |
-| Glue gun         | Burns                     | Gloves                                 | 45001                  |
-| Drill            | Projections, injuries     | Glasses, gloves                        | 13849 , 45001          |
-| Sanding machine  | Dust, projections         | Mask, glasses, gloves                  | 16000 , 13849          |
-| Soldering kit    | Burns, projections        | Gloves, glasses                        | 45001 , 13849          |
-
-Explanation of ISO standards tackled in the table:
-
-- **ISO 16000**: Indoor air quality.
-- **ISO 13849**: Safety of machinery.
-- **ISO 45001**: Occupational health and safety.
+| Category     | Material                       | Risk                               | Protection                                  |
+| ------------ | ------------------------------ | ---------------------------------- | ------------------------------------------- |
+| 3D Printing  | Standard, Engineering plastics | Burns[^1]                          | Gloves[^2]                                  |
+| 3D Printing  | ABS & Composite plastics       | Burns[^1], Fumes[^3]               | Gloves[^2], opening windows / gas mask[^4]  |
+| CNC          | Wood                           | Projections[^5], dust              | Opening windows / gas mask[^4], glasses[^6] |
+| CNC          | Metal                          | Projections[^5], chips             | Glasses[^6]                                 |
+| CNC          | Plastic & acrylic              | Projections[^5], Fumes[^3], chips  | Opening windows / gas mask[^4], glasses[^6] |
+| Laser cutter | Any                            | Fumes[^3], Laser radiation[^7]     | Opening windows / gas mask[^4], glasses[^8] |
+| Hand tool    | Heat gun                       | Burns[^1], Projections[^5]         | Gloves[^2], glasses[^6]                     |
+| Hand tool    | Glue gun                       | Burns[^1]                          | Gloves[^2]                                  |
+| Hand tool    | Drill                          | Projections[^5], rotary engine[^9] | Gloves[^2], glasses[^6]                     |
+| Hand tool    | Sanding machine                | Burns[^1], Projections[^5]         | Gloves[^2], gas mask[^4], glasses[^6]       |
+| Hand tool    | Soldering iron                 | Burns[^1], Projections[^5]         | Gloves[^2], glasses[^6]                     |
 
 ---
 
 Last update: Jan. 2025
 
 Author: Yann VIDAMMENT
+
+[^1]: ISO 13732-1:2006 / 7010:W017, hot surfaces.
+[^2]: ISO 7010:M009, hand protection.
+[^3]: ISO 16000-1:2004 / 7010:W016, indoor air quality and toxic fumes.
+[^4]: ISO 7010:M016, compulsory mask.
+[^5]: ISO 7010:W001, general risk of projections from metal or wood bits.
+[^6]: ISO 7010:M004, compulsory glasses.
+[^7]: ISO 7010:W004, laser radiation hazard.
+[^8]: ISO 7010:M006, compulsory opaque protective goggles.
+[^9]: ISO 7010:W024, hand crushing hazard due to rotary engine.
