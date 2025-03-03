@@ -29,6 +29,7 @@ Personal Protective Equipment is a must-have in a Fablab. It is the first line o
 | Equipment             | Dangers it answers to | Illustration                       |
 | --------------------- | --------------------- | ---------------------------------- |
 | Plastic glasses       | Projections, chips    | ![glasses](../assets/safety-2.png) |
+| UV glasses            | UV light              | ![glasses](../assets/safety-7.png) |
 | Cut resistant gloves  | Cut, saw, cutter      | ![gloves](../assets/safety-3.png)  |
 | Heat resistant gloves | High heat             | ![gloves](../assets/safety-4.png)  |
 | Headset               | Loud noises           | ![headset](../assets/safety-5.png) |
