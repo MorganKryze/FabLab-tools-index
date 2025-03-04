@@ -1,8 +1,12 @@
+---
+sidebar_position: 2
+---
+
 # 3D Printer - Bambulab X1 Carbon
 
 > This guide will teach you how to use prepare and print a 3D model using the Bambulab X1 Carbon 3D printer.
 
-![Bambulab X1 Carbon](../assets/bambulab-1.png)
+![Bambulab X1 Carbon](/assets/bambulab-1.png)
 
 ## Table of Contents
 
@@ -34,7 +38,7 @@ The necessary equipment for 3D printing is as follows:
 
 Here is a detailed schema to understand the process:
 
-![3D Printing Process](../assets/bambulab-6.png)
+![3D Printing Process](/assets/bambulab-6.png)
 
 ## Risks and protections
 
@@ -50,32 +54,32 @@ Here is a detailed schema to understand the process:
 
 The Bambulab AMS is an automatic material management system that allows 3D printing with up to four different filaments without having to manually change the spools. It uses an automatic filament recognition system (RFID) to identify the spools and an automatic spool changing system (ABC) to change them automatically when the filament runs out. The AMS is also equipped with a filament drying system to eliminate moisture and improve print quality.
 
-![AMS](../assets/bambulab-2.png)
+![AMS](/assets/bambulab-2.png)
 
 ### The extruder
 
 The extruder is the module that pulls the filament. It consists of a stepper motor that drives a gear that advances the filament into the heating body. It is prone to clogging or jamming during use (useful to know for troubleshooting).
 The extruder of the Bambulab X1 Carbon printer is a direct extruder. This means it is located directly above the printing plate. This allows for better control of the temperature and pressure of the filament, resulting in higher quality prints. The X1 Carbon extruder is also equipped with a water-cooling system, which allows for printing high-temperature filaments such as PETG and Nylon.
 
-![Extruder](../assets/bambulab-3.png)
+![Extruder](/assets/bambulab-3.png)
 
 ### The heating Body
 
 After passing through the extruder, the filament goes into the heating body. It consists of a PTFE (Teflon) tube that guides the filament to the nozzle. It is also equipped with a heating cartridge that melts the filament and a temperature sensor that controls the filament temperature. The temperatures vary depending on the filaments used (see below).
 
-![Heating Body](../assets/bambulab-4.png)
+![Heating Body](/assets/bambulab-4.png)
 
 ### The plate
 
 Finally, the plate is the surface on which the printing is done. It is heated to allow better adhesion of the filament. It is also equipped with a temperature sensor that controls the plate temperature. The temperatures also vary depending on the filaments used (see below). Textured plates exist to improve filament adhesion. It is also possible to use removable printing surfaces (BuildTak, PEI, or satin) to facilitate the removal of the print.
 
-![Plate](../assets/bambulab-5.png)
+![Plate](/assets/bambulab-5.png)
 
 ## The filaments
 
 3D printer filament is one of the most commonly used categories of 3D printing materials in the world. Unlike powder and liquid resin and other 3D printing technologies, filament is produced in the form of a fine, continuous plastic thread several hundred meters long, which is generally wound onto a spool for storage and feeding into the printer. Determined by the thermal extrusion process of FDM printers, the raw material of the filament is a thermoplastic material including the most commonly used plastics in life, as well as some special formula materials for certain uses.
 
-For more information about the filaments, consider reading the [Filament | FDM plastics](../consumables/filament.md) guide.
+For more information about the filaments, consider reading the [Filament | FDM plastics](./filament.md) guide.
 
 ## Printing Protocol
 

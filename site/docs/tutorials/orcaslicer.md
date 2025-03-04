@@ -1,8 +1,12 @@
+---
+sidebar_position: 4
+---
+
 # 3D Slicer - OrcaSlicer
 
 > This guide will teach you how to use OrcaSlicer to prepare your 3D models for printing.
 
-![Software](../assets/orcaslicer-1.png)
+![Software](/assets/orcaslicer-1.png)
 
 ## Table of Contents
 
@@ -40,11 +44,11 @@ You may find 3D models from various market places with free and paid tiers:
 
 1. Once your model is downloaded, you can import it into OrcaSlicer by clicking on the "Import" button.
 
-![Import](../assets/orcaslicer-2.png)
+![Import](/assets/orcaslicer-2.png)
 
 ## Creation of the Printing context
 
-![Context](../assets/orcaslicer-3.png)
+![Context](/assets/orcaslicer-3.png)
 
 1. We check that the printer is correctly set up in the software (Bambulab X1 Carbon). We choose the printer model, the nozzle diameter, the bed size, and the material used. This will allow the slicer to calculate the printing time and the amount of material needed.
 2. We choose the bed type among: smooth cool plate, textured pei plate, or engineering plate. This will impact the adhesion of the part to the plate. Choose wisely according to the material used.
@@ -56,11 +60,11 @@ You may find 3D models from various market places with free and paid tiers:
 
 We choose its orientation, for technical reasons but also for aesthetic reasons, especially with filament deposition printing. Indeed, with FDM, the layering from layer to layer is visible, so we will have to choose whether we want the part to be printed to have horizontal or vertical layering, for example. This will also impact the strength of the print. If we print without relief, we can also choose to print the face of the object on the plate to benefit from the shine of this face.
 
-![Layers](../assets/orcaslicer-4.png)
+![Layers](/assets/orcaslicer-4.png)
 
 ## Defining the Part's Infill
 
-![Infill](../assets/orcaslicer-5.png)
+![Infill](/assets/orcaslicer-5.png)
 
 1. The infill density determines the amount of material used inside the print. Higher density results in a stronger and heavier part, while lower density makes the part lighter and faster to print.
 
@@ -72,7 +76,7 @@ We choose its orientation, for technical reasons but also for aesthetic reasons,
 
 Extrusion cannot attach to the void; support is needed to give the hot extruded filament time to harden. Different support models exist depending on the needs, such as grids or organic supports. It is also possible to choose where to place the supports and even define areas without support in most slicers.
 
-![Supports](../assets/orcaslicer-6.png)
+![Supports](/assets/orcaslicer-6.png)
 
 1. Click on the Support section.
 2. Ensure that the **Enable supports** is toggled.
@@ -92,7 +96,7 @@ OrcaSlicer offers a range of advanced settings to fine-tune your print:
 
 Now that everything is ready, we can save the file and export it to the printer.
 
-![Export](../assets/orcaslicer-7.png)
+![Export](/assets/orcaslicer-7.png)
 
 1. Toggle the more actions button.
 2. Select the **Export plate sliced file** option.

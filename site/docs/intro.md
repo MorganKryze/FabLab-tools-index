@@ -2,46 +2,91 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+> This documentation is a repository for all the tools available in the Fablab. It is intended to be a quick reference for the users of the Fablab.
 
-## Getting Started
+![Tools](/assets/readme-1.png)
 
-Get started by **creating a new site**.
+## Electronic hardware
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- [3D Printer | Bambulab X1 Carbon](/docs/tutorials/bambulab)
+- [Multi-function station | SnapMaker Artisan](/docs/tutorials/snapmaker) (WIP)
+- Single Board Computers
+  - [RaspberryPi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
+  - [RaspberryPi 400](https://www.raspberrypi.com/products/raspberry-pi-400/)
+  - [OrangePi 5B](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5B.html)
+  - [OrangePi 5 Plus](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
+- Micro-controllers
+  - [ESP8266](https://en.wikipedia.org/wiki/ESP8266)
+  - [ESP32 & Featherwing](https://www.adafruit.com/product/4264)
+  - [TotemDuino Micro Lab](https://totemmaker.net/product/totemduino-microlab/)
+- Sensors
+  - ESP32 Cam
+  - PIR sensor
+  - Picamera 2 NoIR
+  - Picamera 3
+  - Webcam full HD
+  - Audio-technica usb microphone
+  - ASK 130 Conference Speaker & Microphone
+  - EL019 Speaker
+- Samsung Tablets
+- Soldering kit
+- Multimeter
 
-### What you'll need
+## Mechanical hardware
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Heat Gun Seekone
+- Glue gun Bosch
+- Drill Bosh
+- Hand-drill Bosh
+- Sanding machine Black & Decker
 
-## Generate a new site
+## Software
 
-Generate a new Docusaurus site using the **classic template**.
+- CAO | FreeCAD WIP
+- [3D slicer | OrcaSlicer for Bambulab](/docs/tutorials/orcaslice)
+- 3D slicer | Luban for Snapmaker (WIP)
+- Code editor : Vscode & PlatformIO (WIP)
+- [Raspberry Pi imager](https://www.raspberrypi.com/software/)
+- [BalenaEtcher](https://etcher.balena.io/)
 
-The classic template will automatically be added to your project after you run the command:
+## Consumables
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- [Filament | FDM plastics](/docs/tutorials/filament)
+- Wood planks
+- Metal sheets
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Dangers and risks
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+All safety equipments are listed in [this guide](/docs/tutorials/equipements).
 
-## Start your site
+| Category     | Material                       | Risk                               | Protection                                  |
+| ------------ | ------------------------------ | ---------------------------------- | ------------------------------------------- |
+| 3D Printing  | Standard, Engineering plastics | Burns[^1]                          | Gloves[^2]                                  |
+| 3D Printing  | ABS & Composite plastics       | Burns[^1], Fumes[^3]               | Gloves[^2], opening windows / gas mask[^4]  |
+| CNC          | Wood                           | Projections[^5], dust              | Opening windows / gas mask[^4], glasses[^6] |
+| CNC          | Metal                          | Projections[^5], chips             | Glasses[^6]                                 |
+| CNC          | Plastic & acrylic              | Projections[^5], Fumes[^3], chips  | Opening windows / gas mask[^4], glasses[^6] |
+| Laser cutter | Any                            | Fumes[^3], Laser radiation[^7]     | Opening windows / gas mask[^4], glasses[^8] |
+| Hand tool    | Heat gun                       | Burns[^1], Projections[^5]         | Gloves[^2], glasses[^6]                     |
+| Hand tool    | Glue gun                       | Burns[^1]                          | Gloves[^2]                                  |
+| Hand tool    | Drill                          | Projections[^5], rotary engine[^9] | Gloves[^2], glasses[^6]                     |
+| Hand tool    | Sanding machine                | Burns[^1], Projections[^5]         | Gloves[^2], gas mask[^4], glasses[^6]       |
+| Hand tool    | Soldering iron                 | Burns[^1], Projections[^5]         | Gloves[^2], glasses[^6]                     |
 
-Run the development server:
+---
 
-```bash
-cd my-website
-npm run start
-```
+Last update: Jan. 2025
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Author: Yann VIDAMMENT
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+[^1]: ISO 13732-1:2006 / 7010:W017, hot surfaces.
+[^2]: ISO 7010:M009, hand protection.
+[^3]: ISO 16000-1:2004 / 7010:W016, indoor air quality and toxic fumes.
+[^4]: ISO 7010:M016, compulsory mask.
+[^5]: ISO 7010:W001, general risk of projections from metal or wood bits.
+[^6]: ISO 7010:M004, compulsory glasses.
+[^7]: ISO 7010:W004, laser radiation hazard.
+[^8]: ISO 7010:M006, compulsory opaque protective goggles.
+[^9]: ISO 7010:W024, hand crushing hazard due to rotary engine.
