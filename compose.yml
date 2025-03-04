@@ -1,0 +1,22 @@
+services:
+  # Production service
+  docusaurus-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    
+  # Development service with hot-reloading
+  docusaurus-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./site:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development

@@ -45,7 +45,7 @@ sidebar_position: 1
 ## Software
 
 - CAO | FreeCAD WIP
-- [3D slicer | OrcaSlicer for Bambulab](/docs/tutorials/orcaslice)
+- [3D slicer | OrcaSlicer for Bambulab](/docs/tutorials/orcaslicer)
 - 3D slicer | Luban for Snapmaker (WIP)
 - Code editor : Vscode & PlatformIO (WIP)
 - [Raspberry Pi imager](https://www.raspberrypi.com/software/)
