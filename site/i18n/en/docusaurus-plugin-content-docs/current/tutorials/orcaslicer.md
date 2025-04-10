@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# 3D Slicer
+# 3D Printer {#3d-printer}
 
 > This guide will teach you how to use OrcaSlicer to prepare your 3D models for printing.
 

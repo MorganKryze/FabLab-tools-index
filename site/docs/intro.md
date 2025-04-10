@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introduction FR
 
 > This documentation is a repository for all the tools available in the Fablab. It is intended to be a quick reference for the users of the Fablab.
 
@@ -10,8 +10,8 @@ sidebar_position: 1
 
 ## Electronic hardware
 
-- [3D Printer | Bambulab X1 Carbon](/docs/tutorials/bambulab)
-- [Multi-function station | SnapMaker Artisan](/docs/tutorials/snapmaker) (WIP)
+- [3D Printer | Bambulab X1 Carbon](./tutorials/bambulab.md)
+- [Multi-function station | SnapMaker Artisan](./tutorials/snapmaker.md) (WIP)
 - Single Board Computers
   - [RaspberryPi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
   - [RaspberryPi 400](https://www.raspberrypi.com/products/raspberry-pi-400/)
