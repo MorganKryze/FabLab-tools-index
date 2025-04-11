@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Imprimante 3D {#imprimante-3d}
+# OrcaSlicer Découpage
 
 > Ce guide vous apprendra à utiliser OrcaSlicer pour préparer vos modèles 3D à l'impression.
 

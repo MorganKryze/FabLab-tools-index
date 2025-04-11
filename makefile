@@ -43,3 +43,16 @@ restart-prod:
 	@echo "Docusaurus production build complete"
 	@echo "Access the site at http://localhost:3000"
 	@echo "To stop the server, run 'make stop'"
+
+clean:
+	@echo "Cleaning up all packages and containers"
+
+	@docker compose down
+	
+
+	@rm -rf node_modules
+	@rm -rf package-lock.json
+	@rm -rf .docusaurus
+
+	@echo "All packages and containers cleaned up"
+	@echo "To start the server again, run 'make dev' or 'make prod'"

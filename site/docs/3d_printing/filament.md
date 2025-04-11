@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Filament 3D
+# Filaments
 
 > Ce guide vous présentera les différents types de filaments disponibles pour l'impression 3D et leurs caractéristiques.
 
