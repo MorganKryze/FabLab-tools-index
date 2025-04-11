@@ -37,7 +37,8 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts'
+          sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
         },
         theme: {
           customCss: './src/css/custom.css'
@@ -62,7 +63,7 @@ const config: Config = {
           label: 'Documentation'
         },
         {
-          to:'blog',
+          to: 'blog',
           position: 'left',
           label: 'Workshops'
         },

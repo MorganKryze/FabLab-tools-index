@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction EN
+# Introduction
 
 > This documentation is a repository for all the tools available in the Fablab. It is intended to be a quick reference for the users of the Fablab.
 
