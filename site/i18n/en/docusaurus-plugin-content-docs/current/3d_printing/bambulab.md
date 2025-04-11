@@ -62,7 +62,7 @@ Finally, the plate is the surface on which the printing is done. It is heated to
 
 3D printer filament is one of the most commonly used categories of 3D printing materials in the world. Unlike powder and liquid resin and other 3D printing technologies, filament is produced in the form of a fine, continuous plastic thread several hundred meters long, which is generally wound onto a spool for storage and feeding into the printer. Determined by the thermal extrusion process of FDM printers, the raw material of the filament is a thermoplastic material including the most commonly used plastics in life, as well as some special formula materials for certain uses.
 
-For more information about the filaments, consider reading the [Filament | FDM plastics](/docs/tutorials/filament) guide.
+For more information about the filaments, consider reading the [Filament | FDM plastics](/3d_printing/filament) guide.
 
 ## Printing Protocol
 
@@ -83,7 +83,7 @@ In addition, you may encounter .3mf files, which are a container format that can
 
 The second step is to slice the file. Slicing is the process of converting a 3D model file into a set of instructions for the 3D printer. This set of instructions is called G-code. The slicing software allows you to configure the print settings (layer height, print speed, temperature, etc.) and to visualize the print before starting it.
 
-For more information about slicing software, consider reading the [3D slicer | OrcaSlicer](/docs/tutorials/orcaslicer) guide.
+For more information about slicing software, consider reading the [3D slicer | OrcaSlicer](/3d_printing/orcaslicer) guide.
 
 ### Preparing the Printer
 

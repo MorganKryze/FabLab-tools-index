@@ -20,7 +20,7 @@ Though, they share some common properties:
 
 ## Standard plastics
 
-Standard filament material require no particular handling and are easy to print. They are the most common materials used in 3D printing and are suitable for most applications. They offer a natural compatibility the Bambulab AMS (Automatic Material System). see [ref](/docs/tutorials/bambulab).
+Standard filament material require no particular handling and are easy to print. They are the most common materials used in 3D printing and are suitable for most applications. They offer a natural compatibility the Bambulab AMS (Automatic Material System). see [ref](/3d_printing/bambulab).
 
 | Material                             | PLA                       | PETG                           | ABS                            |
 | ------------------------------------ | ------------------------- | ------------------------------ | ------------------------------ |

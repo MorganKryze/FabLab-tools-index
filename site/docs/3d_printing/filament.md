@@ -20,7 +20,7 @@ Cependant, ils partagent certaines propriétés communes :
 
 ## Plastiques standard
 
-Les matériaux de filament standard ne nécessitent aucune manipulation particulière et sont faciles à imprimer. Ce sont les matériaux les plus courants utilisés en impression 3D et sont adaptés à la plupart des applications. Ils offrent une compatibilité naturelle avec le système AMS (Automatic Material System) de Bambulab. Voir [référence](/docs/tutorials/bambulab).
+Les matériaux de filament standard ne nécessitent aucune manipulation particulière et sont faciles à imprimer. Ce sont les matériaux les plus courants utilisés en impression 3D et sont adaptés à la plupart des applications. Ils offrent une compatibilité naturelle avec le système AMS (Automatic Material System) de Bambulab. Voir [référence](/3d_printing/bambulab).
 
 | Matériau                                | PLA                            | PETG                                | ABS                                 |
 | --------------------------------------- | ------------------------------ | ----------------------------------- | ----------------------------------- |

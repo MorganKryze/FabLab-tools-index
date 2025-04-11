@@ -25,8 +25,8 @@ If you may have any doubt or inquiry, please refer to your supervisor.
 
 ## Electronic hardware
 
-- [3D Printer | Bambulab X1 Carbon](./tutorials/bambulab.md)
-- [Multi-function station | SnapMaker Artisan](./tutorials/snapmaker.md) (WIP)
+- [3D Printer | Bambulab X1 Carbon](/3d_printing/bambulab.md)
+- [Multi-function station | SnapMaker Artisan](/CNC/snapmaker.md) (WIP)
 - Single Board Computers
   - [RaspberryPi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
   - [RaspberryPi 400](https://www.raspberrypi.com/products/raspberry-pi-400/)
@@ -60,7 +60,7 @@ If you may have any doubt or inquiry, please refer to your supervisor.
 ## Software
 
 - CAO | FreeCAD WIP
-- [3D slicer | OrcaSlicer for Bambulab](./tutorials/orcaslicer.md)
+- [3D slicer | OrcaSlicer for Bambulab](/3d_printing/orcaslicer.md)
 - 3D slicer | Luban for Snapmaker (WIP)
 - Code editor : Vscode & PlatformIO (WIP)
 - [Raspberry Pi imager](https://www.raspberrypi.com/software/)
@@ -68,6 +68,6 @@ If you may have any doubt or inquiry, please refer to your supervisor.
 
 ## Consumables
 
-- [Filament | FDM plastics](./tutorials/filament.md)
+- [Filament | FDM plastics](/3d_printing/filament.md)
 - Wood planks
 - Metal sheets

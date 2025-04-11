@@ -18,8 +18,6 @@ If you may have any doubt or inquiry, please refer to your supervisor.
 
 ## Dangers and risks
 
-All safety equipments are listed in [this guide](./tutorials/equipements.md).
-
 | Category     | Material                       | Risk                               | Protection                                  |
 | ------------ | ------------------------------ | ---------------------------------- | ------------------------------------------- |
 | 3D Printing  | Standard, Engineering plastics | Burns[^1]                          | Gloves[^2]                                  |

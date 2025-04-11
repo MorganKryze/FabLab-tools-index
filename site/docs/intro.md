@@ -25,8 +25,8 @@ Si vous avez des doutes ou des questions, veuillez vous référer à votre super
 
 ## Matériel électronique
 
-- [Imprimante 3D | Bambulab X1 Carbon](./tutorials/bambulab.md)
-- [Station multifonction | SnapMaker Artisan](./tutorials/snapmaker.md) (en cours)
+- [Imprimante 3D | Bambulab X1 Carbon](/docs/3d_printing/bambulab.md)
+- [Station multifonction | SnapMaker Artisan](/docs/CNC/snapmaker.md) (en cours)
 - Ordinateurs monocartes
   - [RaspberryPi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
   - [RaspberryPi 400](https://www.raspberrypi.com/products/raspberry-pi-400/)
@@ -60,7 +60,7 @@ Si vous avez des doutes ou des questions, veuillez vous référer à votre super
 ## Logiciels
 
 - CAO | FreeCAD (en cours)
-- [Trancheuse 3D | OrcaSlicer pour Bambulab](./tutorials/orcaslicer.md)
+- [Trancheuse 3D | OrcaSlicer pour Bambulab](/docs/3d_printing/orcaslicer.md)
 - Trancheuse 3D | Luban pour Snapmaker (en cours)
 - Éditeur de code : Vscode & PlatformIO (en cours)
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
@@ -68,6 +68,6 @@ Si vous avez des doutes ou des questions, veuillez vous référer à votre super
 
 ## Consommables
 
-- [Filament | Plastiques FDM](./tutorials/filament.md)
+- [Filament | Plastiques FDM](/docs/3d_printing/filament.md)
 - Planches de bois
 - Feuilles de métal

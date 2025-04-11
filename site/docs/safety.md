@@ -18,8 +18,6 @@ Si vous avez des doutes ou des questions, veuillez vous référer à votre super
 
 ## Dangers et risques
 
-Tous les équipements de sécurité sont listés dans [ce guide](./tutorials/equipements.md).
-
 | Catégorie        | Matériau                        | Risque                               | Protection                                              |
 | ---------------- | ------------------------------- | ------------------------------------ | ------------------------------------------------------- |
 | Impression 3D    | Plastiques standard, ingénierie | Brûlures[^1]                         | Gants[^2]                                               |

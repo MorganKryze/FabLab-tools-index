@@ -62,7 +62,7 @@ Enfin, la plaque est la surface sur laquelle l'impression est réalisée. Elle e
 
 Le filament pour imprimante 3D est l'une des catégories de matériaux d'impression 3D les plus utilisées au monde. Contrairement à la poudre et à la résine liquide et autres technologies d'impression 3D, le filament est produit sous la forme d'un fil plastique fin et continu de plusieurs centaines de mètres de long, généralement enroulé sur une bobine pour le stockage et l'alimentation dans l'imprimante. Déterminé par le processus d'extrusion thermique des imprimantes FDM, le matériau brut du filament est un matériau thermoplastique incluant les plastiques les plus couramment utilisés dans la vie quotidienne, ainsi que certains matériaux à formule spéciale pour certains usages.
 
-Pour plus d'informations sur les filaments, consultez le guide [Filament | Plastiques FDM](/docs/tutorials/filament).
+Pour plus d'informations sur les filaments, consultez le guide [Filament | Plastiques FDM](/3d_printing/filament).
 
 ## Protocole d'impression
 
@@ -83,7 +83,7 @@ De plus, vous pouvez rencontrer des fichiers .3mf, qui sont un format conteneur 
 
 La deuxième étape consiste à découper le fichier. La découpe est le processus de conversion d'un fichier de modèle 3D en un ensemble d'instructions pour l'imprimante 3D. Cet ensemble d'instructions est appelé G-code. Le logiciel de découpe permet de configurer les paramètres d'impression (hauteur de couche, vitesse d'impression, température, etc.) et de visualiser l'impression avant de la démarrer.
 
-Pour plus d'informations sur le logiciel de découpe, consultez le guide [3D slicer | OrcaSlicer](/docs/tutorials/orcaslicer).
+Pour plus d'informations sur le logiciel de découpe, consultez le guide [3D slicer | OrcaSlicer](/3d_printing/orcaslicer).
 
 ### Préparation de l'imprimante
 
