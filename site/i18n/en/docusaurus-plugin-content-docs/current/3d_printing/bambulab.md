@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # 3D Printer
@@ -94,9 +94,3 @@ Once your file is sliced, you need to prepare the printer. This involves checkin
 - The plate is clean and leveled
 
 Once everything is ready, you can start the print. The printer will heat up the plate and the extruder to the required temperatures and start printing.
-
----
-
-Last update: Nov. 2024
-
-Author: Yann VIDAMMENT

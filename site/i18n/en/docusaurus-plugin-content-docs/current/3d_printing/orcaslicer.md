@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# 3D Slicer
+# 3D Printer {#3d-printer}
 
 > This guide will teach you how to use OrcaSlicer to prepare your 3D models for printing.
 
@@ -94,9 +94,3 @@ Now that everything is ready, we can save the file and export it to the printer.
 - **Stringing**: Adjust retraction settings and print speed.
 - **Warping**: Use a heated bed and ensure proper bed adhesion.
 - **Under-extrusion**: Check for clogs in the nozzle and ensure the filament is feeding correctly.
-
----
-
-Last update: Nov. 2024
-
-Author: Yann VIDAMMENT

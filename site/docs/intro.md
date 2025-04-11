@@ -2,91 +2,72 @@
 sidebar_position: 1
 ---
 
-# Introduction FR
+# Introduction
 
-> This documentation is a repository for all the tools available in the Fablab. It is intended to be a quick reference for the users of the Fablab.
+> Cette documentation est un référentiel pour tous les outils disponibles dans le Fablab. Elle est destinée à servir de référence rapide pour les utilisateurs du Fablab.
 
-![Tools](/assets/readme-1.png)
+![Outils](/assets/readme-1.png)
 
-## Electronic hardware
+:::warning
 
-- [3D Printer | Bambulab X1 Carbon](./tutorials/bambulab.md)
-- [Multi-function station | SnapMaker Artisan](./tutorials/snapmaker.md) (WIP)
-- Single Board Computers
+Cette documentation est en cours de rédaction. Elle n'est pas exhaustive et peut contenir des erreurs. Si vous avez des questions ou des suggestions, veuillez contacter l'équipe du Fablab.
+
+:::
+
+:::warning
+
+Travailler dans un Fablab n'est pas une activité sans risque et nécessite du temps pour déterminer quelle protection est adaptée à quelle technique de fabrication. La précipitation et le manque de connaissances seront les principales causes d'accidents.
+
+Veuillez prendre le temps de lire attentivement le guide suivant avant d'utiliser l'un des outils.
+Si vous avez des doutes ou des questions, veuillez vous référer à votre superviseur.
+
+:::
+
+## Matériel électronique
+
+- [Imprimante 3D | Bambulab X1 Carbon](./tutorials/bambulab.md)
+- [Station multifonction | SnapMaker Artisan](./tutorials/snapmaker.md) (en cours)
+- Ordinateurs monocartes
   - [RaspberryPi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
   - [RaspberryPi 400](https://www.raspberrypi.com/products/raspberry-pi-400/)
   - [OrangePi 5B](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5B.html)
   - [OrangePi 5 Plus](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
-- Micro-controllers
+- Microcontrôleurs
   - [ESP8266](https://en.wikipedia.org/wiki/ESP8266)
   - [ESP32 & Featherwing](https://www.adafruit.com/product/4264)
   - [TotemDuino Micro Lab](https://totemmaker.net/product/totemduino-microlab/)
-- Sensors
+- Capteurs
   - ESP32 Cam
-  - PIR sensor
+  - Capteur PIR
   - Picamera 2 NoIR
   - Picamera 3
-  - Webcam full HD
-  - Audio-technica usb microphone
-  - ASK 130 Conference Speaker & Microphone
-  - EL019 Speaker
-- Samsung Tablets
-- Soldering kit
-- Multimeter
+  - Webcam Full HD
+  - Microphone USB Audio-technica
+  - Haut-parleur et microphone de conférence ASK 130
+  - Haut-parleur EL019
+- Tablettes Samsung
+- Kit de soudure
+- Multimètre
 
-## Mechanical hardware
+## Matériel mécanique
 
-- Heat Gun Seekone
-- Glue gun Bosch
-- Drill Bosh
-- Hand-drill Bosh
-- Sanding machine Black & Decker
+- Pistolet thermique Seekone
+- Pistolet à colle Bosch
+- Perceuse Bosh
+- Perceuse à main Bosh
+- Ponceuse Black & Decker
 
-## Software
+## Logiciels
 
-- CAO | FreeCAD WIP
-- [3D slicer | OrcaSlicer for Bambulab](/docs/tutorials/orcaslicer)
-- 3D slicer | Luban for Snapmaker (WIP)
-- Code editor : Vscode & PlatformIO (WIP)
-- [Raspberry Pi imager](https://www.raspberrypi.com/software/)
+- CAO | FreeCAD (en cours)
+- [Trancheuse 3D | OrcaSlicer pour Bambulab](./tutorials/orcaslicer.md)
+- Trancheuse 3D | Luban pour Snapmaker (en cours)
+- Éditeur de code : Vscode & PlatformIO (en cours)
+- [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 - [BalenaEtcher](https://etcher.balena.io/)
 
-## Consumables
+## Consommables
 
-- [Filament | FDM plastics](/docs/tutorials/filament)
-- Wood planks
-- Metal sheets
-
-## Dangers and risks
-
-All safety equipments are listed in [this guide](/docs/tutorials/equipements).
-
-| Category     | Material                       | Risk                               | Protection                                  |
-| ------------ | ------------------------------ | ---------------------------------- | ------------------------------------------- |
-| 3D Printing  | Standard, Engineering plastics | Burns[^1]                          | Gloves[^2]                                  |
-| 3D Printing  | ABS & Composite plastics       | Burns[^1], Fumes[^3]               | Gloves[^2], opening windows / gas mask[^4]  |
-| CNC          | Wood                           | Projections[^5], dust              | Opening windows / gas mask[^4], glasses[^6] |
-| CNC          | Metal                          | Projections[^5], chips             | Glasses[^6]                                 |
-| CNC          | Plastic & acrylic              | Projections[^5], Fumes[^3], chips  | Opening windows / gas mask[^4], glasses[^6] |
-| Laser cutter | Any                            | Fumes[^3], Laser radiation[^7]     | Opening windows / gas mask[^4], glasses[^8] |
-| Hand tool    | Heat gun                       | Burns[^1], Projections[^5]         | Gloves[^2], glasses[^6]                     |
-| Hand tool    | Glue gun                       | Burns[^1]                          | Gloves[^2]                                  |
-| Hand tool    | Drill                          | Projections[^5], rotary engine[^9] | Gloves[^2], glasses[^6]                     |
-| Hand tool    | Sanding machine                | Burns[^1], Projections[^5]         | Gloves[^2], gas mask[^4], glasses[^6]       |
-| Hand tool    | Soldering iron                 | Burns[^1], Projections[^5]         | Gloves[^2], glasses[^6]                     |
-
----
-
-Last update: Jan. 2025
-
-Author: Yann VIDAMMENT
-
-[^1]: ISO 13732-1:2006 / 7010:W017, hot surfaces.
-[^2]: ISO 7010:M009, hand protection.
-[^3]: ISO 16000-1:2004 / 7010:W016, indoor air quality and toxic fumes.
-[^4]: ISO 7010:M016, compulsory mask.
-[^5]: ISO 7010:W001, general risk of projections from metal or wood bits.
-[^6]: ISO 7010:M004, compulsory glasses.
-[^7]: ISO 7010:W004, laser radiation hazard.
-[^8]: ISO 7010:M006, compulsory opaque protective goggles.
-[^9]: ISO 7010:W024, hand crushing hazard due to rotary engine.
+- [Filament | Plastiques FDM](./tutorials/filament.md)
+- Planches de bois
+- Feuilles de métal

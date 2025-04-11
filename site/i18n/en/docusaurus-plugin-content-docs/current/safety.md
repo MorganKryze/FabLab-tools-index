@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Safety equipments
@@ -10,11 +10,29 @@ sidebar_position: 1
 
 ## Introduction
 
-Working in a Fablab is not a risk-free activity and needs time to process which protection will be adapted to which fabrication technique. Precipitation will be the main cause of accidents.
+Working in a Fablab is not a risk-free activity and needs time to process which protection will be adapted to which fabrication technique. Precipitation and lack of knowledge will be the main cause of accidents.
 
 This guide will tackle both prevention equipments as well as response to danger procedures.
 
 If you may have any doubt or inquiry, please refer to your supervisor.
+
+## Dangers and risks
+
+All safety equipments are listed in [this guide](./tutorials/equipements.md).
+
+| Category     | Material                       | Risk                               | Protection                                  |
+| ------------ | ------------------------------ | ---------------------------------- | ------------------------------------------- |
+| 3D Printing  | Standard, Engineering plastics | Burns[^1]                          | Gloves[^2]                                  |
+| 3D Printing  | ABS & Composite plastics       | Burns[^1], Fumes[^3]               | Gloves[^2], opening windows / gas mask[^4]  |
+| CNC          | Wood                           | Projections[^5], dust              | Opening windows / gas mask[^4], glasses[^6] |
+| CNC          | Metal                          | Projections[^5], chips             | Glasses[^6]                                 |
+| CNC          | Plastic & acrylic              | Projections[^5], Fumes[^3], chips  | Opening windows / gas mask[^4], glasses[^6] |
+| Laser cutter | Any                            | Fumes[^3], Laser radiation[^7]     | Opening windows / gas mask[^4], glasses[^8] |
+| Hand tool    | Heat gun                       | Burns[^1], Projections[^5]         | Gloves[^2], glasses[^6]                     |
+| Hand tool    | Glue gun                       | Burns[^1]                          | Gloves[^2]                                  |
+| Hand tool    | Drill                          | Projections[^5], rotary engine[^9] | Gloves[^2], glasses[^6]                     |
+| Hand tool    | Sanding machine                | Burns[^1], Projections[^5]         | Gloves[^2], gas mask[^4], glasses[^6]       |
+| Hand tool    | Soldering iron                 | Burns[^1], Projections[^5]         | Gloves[^2], glasses[^6]                     |
 
 ## PPE | Personal Protective Equipment
 
@@ -62,6 +80,12 @@ In case of emergency, here are the numbers you should call :
 
 ---
 
-Last update: Nov. 2024
-
-Author: Yann VIDAMMENT
+[^1]: ISO 13732-1:2006 / 7010:W017, hot surfaces.
+[^2]: ISO 7010:M009, hand protection.
+[^3]: ISO 16000-1:2004 / 7010:W016, indoor air quality and toxic fumes.
+[^4]: ISO 7010:M016, compulsory mask.
+[^5]: ISO 7010:W001, general risk of projections from metal or wood bits.
+[^6]: ISO 7010:M004, compulsory glasses.
+[^7]: ISO 7010:W004, laser radiation hazard.
+[^8]: ISO 7010:M006, compulsory opaque protective goggles.
+[^9]: ISO 7010:W024, hand crushing hazard due to rotary engine.

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # 3D Filament
@@ -86,8 +86,3 @@ Composite filaments are made of a base material and a filler material. They offe
 | **UV Resistant**                     | :x:                                   | :x:                                                        | :x:                                   |
 | **Water Resistant**                  | :x:                                   | :x:                                                        | :x:                                   |
 | **Chemically Resistant**             | :x:                                   | :x:                                                        | :x:                                   |
-
----
-
-Last update: Nov. 2024
-Author: Yann VIDAMMENT
